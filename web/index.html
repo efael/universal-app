@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+  -->
+    <script src="script.js" defer></script>
+
+    <base href="$FLUTTER_BASE_HREF" />
+
+    <meta charset="UTF-8" />
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+    <meta
+      name="description"
+      content="The cutest messenger in the Matrix network."
+    />
+
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Twake Chat" />
+    <link rel="apple-touch-icon" href="icons/Icon-192.png" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <title>Twake Chat</title>
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="splash/style.css">
+    <meta
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+      name="viewport"
+    />
+    <!-- This script adds the flutter initialization JS code -->
+    <script src="flutter.js" defer></script>
+    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+  </head>
+
+  <body>
+    <dotlottie-player class="center" src="splash/lottie-chat.json" background="transparent" speed="1" style="width: 176px; height: 176px" direction="1" playmode="forward" autoplay=""></dotlottie-player>
+    <img src="splash/img/icon_twp.png" alt="Twake Workplace logo" class="bottom-image">
+
+    <script>
+      window.addEventListener("load", function (ev) {
+        // Download main.dart.js
+        {{flutter_js}}
+        {{flutter_build_config}}
+
+        if ('serviceWorker' in navigator) {
+          navigator
+            .serviceWorker
+            .getRegistrations()
+            .then(async function(registrations) {
+              try {
+                await Promise.all(registrations.map(function(registration) {
+                  return registration.unregister();
+                }));
+              } catch (error) {
+                console.log('[Twake Chat] Error unregistering service worker: ', error);
+              }
+              _flutter.loader.load({
+                onEntrypointLoaded: async function(engineInitializer) {
+                  const appRunner = await engineInitializer.initializeEngine({useColorEmoji: true});
+                  await setTimeout( async function () {
+                    await appRunner.runApp();
+                  }, 2000);
+                }
+              });
+            });
+        } else {
+          _flutter.loader.load({
+            onEntrypointLoaded: async function (engineInitializer) {
+              const appRunner = await engineInitializer.initializeEngine({useColorEmoji: true});
+              await setTimeout( async function () {
+                await appRunner.runApp();
+              }, 2000);
+            },
+          });
+        }
+      });
+    </script>
+    <script src="assets/assets/js/package/olm.js"></script>
+    <script src="https://unpkg.com/pica/dist/pica.min.js"></script>
+    <script
+      type="application/javascript"
+      src="assets/packages/flutter_inappwebview_web/assets/web/web_support.js"
+      defer
+    ></script>
+  </body>
+</html>
