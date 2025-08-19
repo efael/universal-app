@@ -5,18 +5,15 @@ import 'package:flutter_localized_locales/flutter_localized_locales.dart';
 extension LocaleExtension on Locale {
   String getLanguageNameByCurrentLocale(BuildContext context) {
     switch (languageCode) {
-      case 'fr':
-        return LocaleNames.of(context)!.nameOf('fr') ??
-            L10n.of(context)!.languageFrench;
-      case 'en':
-        return LocaleNames.of(context)!.nameOf('en') ??
-            L10n.of(context)!.languageEnglish;
-      case 'vi':
-        return LocaleNames.of(context)!.nameOf('vi') ??
+      case 'uz':
+        return LocaleNames.of(context)!.nameOf('uz') ??
             L10n.of(context)!.languageVietnamese;
       case 'ru':
         return LocaleNames.of(context)!.nameOf('ru') ??
             L10n.of(context)!.languageRussian;
+      case 'en':
+        return LocaleNames.of(context)!.nameOf('en') ??
+            L10n.of(context)!.languageEnglish;
       default:
         return '';
     }
@@ -24,12 +21,10 @@ extension LocaleExtension on Locale {
 
   String getSourceLanguageName() {
     switch (languageCode) {
-      case 'fr':
-        return 'Français';
       case 'en':
         return 'English';
-      case 'vi':
-        return 'Tiếng Việt';
+      case 'uz':
+        return 'O‘zbekcha';
       case 'ru':
         return 'Русский';
       default:

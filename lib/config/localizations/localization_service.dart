@@ -13,9 +13,8 @@ class LocalizationService {
 
   static const List<Locale> supportedLocales = <Locale>[
     Locale(LanguageCodeConstants.english),
-    Locale(LanguageCodeConstants.vietnamese),
-    Locale(LanguageCodeConstants.french),
     Locale(LanguageCodeConstants.russian),
+    Locale(LanguageCodeConstants.uzbek),
   ];
 
   static void changeLocale(BuildContext context, String langCode) async {
