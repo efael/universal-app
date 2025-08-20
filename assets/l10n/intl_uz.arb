@@ -1,125 +1,125 @@
 {
   "@@locale": "uz",
   "@@last_modified": "2021-08-14 12:41:09.903021",
-  "about": "О проекте",
+  "about": "Loyiha haqida",
   "@about": {
     "type": "text",
     "placeholders": {}
   },
-  "accept": "Принять",
+  "accept": "Qabul qilmoq",
   "@accept": {
     "type": "text",
     "placeholders": {}
   },
-  "acceptedTheInvitation": "{username} принял(а) приглашение",
+  "acceptedTheInvitation": "{username} taklifni qabul qildi",
   "@acceptedTheInvitation": {
     "type": "text",
     "placeholders": {
       "username": {}
     }
   },
-  "account": "Учётная запись",
+  "account": "Hisob",
   "@account": {
     "type": "text",
     "placeholders": {}
   },
-  "activatedEndToEndEncryption": "{username} активировал(а) сквозное шифрование",
+  "activatedEndToEndEncryption": "{username} boshidan oxirigacha shifrlashni faollashtirdi",
   "@activatedEndToEndEncryption": {
     "type": "text",
     "placeholders": {
       "username": {}
     }
   },
-  "addEmail": "Добавить электронную почту",
+  "addEmail": "Email qoʻshish",
   "@addEmail": {
     "type": "text",
     "placeholders": {}
   },
-  "addGroupDescription": "Добавить описание чата",
+  "addGroupDescription": "Chat tavsifini kiritish",
   "@addGroupDescription": {
     "type": "text",
     "placeholders": {}
   },
-  "admin": "Администратор",
+  "admin": "Admin",
   "@admin": {
     "type": "text",
     "placeholders": {}
   },
-  "alias": "псевдоним",
+  "alias": "taxallus",
   "@alias": {
     "type": "text",
     "placeholders": {}
   },
-  "all": "Все",
+  "all": "Barchasi",
   "@all": {
     "type": "text",
     "placeholders": {}
   },
-  "allChats": "Все чаты",
+  "allChats": "Barcha chatlar",
   "@allChats": {
     "type": "text",
     "placeholders": {}
   },
-  "answeredTheCall": "{senderName} ответил(а) на звонок",
+  "answeredTheCall": "{senderName} chaqiruvga javob berdi",
   "@answeredTheCall": {
     "type": "text",
     "placeholders": {
       "senderName": {}
     }
   },
-  "anyoneCanJoin": "Каждый может присоединиться",
+  "anyoneCanJoin": "Har kim qoʻshilishi mumkin",
   "@anyoneCanJoin": {
     "type": "text",
     "placeholders": {}
   },
-  "appLock": "Блокировка приложения",
+  "appLock": "Ilovani qulflash",
   "@appLock": {
     "type": "text",
     "placeholders": {}
   },
-  "archive": "Архив",
+  "archive": "Arxiv",
   "@archive": {
     "type": "text",
     "placeholders": {}
   },
-  "archivedRoom": "Архивированная комната",
+  "archivedRoom": "Arxivlangan xona",
   "@archivedRoom": {
     "type": "text",
     "placeholders": {}
   },
-  "areGuestsAllowedToJoin": "Разрешено ли гостям присоединяться",
+  "areGuestsAllowedToJoin": "Mehmonlarga qoʻshilishga ruxsat berilganmi",
   "@areGuestsAllowedToJoin": {
     "type": "text",
     "placeholders": {}
   },
-  "areYouSure": "Вы уверены?",
+  "areYouSure": "Ishonchingiz komilmi?",
   "@areYouSure": {
     "type": "text",
     "placeholders": {}
   },
-  "areYouSureYouWantToLogout": "Вы действительно хотите выйти?",
+  "areYouSureYouWantToLogout": "Haqiqatan ham chiqmoqchimisiz?",
   "@areYouSureYouWantToLogout": {
     "type": "text",
     "placeholders": {}
   },
-  "askSSSSSign": "Для подписи ключа другого пользователя, пожалуйста, введите вашу парольную фразу или ключ восстановления.",
+  "askSSSSSign": "Boshqa foydalanuvchi kalitini imzolash uchun parol iborasi yoki tiklash kalitini kiriting.",
   "@askSSSSSign": {
     "type": "text",
     "placeholders": {}
   },
-  "askVerificationRequest": "Принять этот запрос подтверждения от {username}?",
+  "askVerificationRequest": "{username}ʼning ushbu tasdiqlash soʻrovi qabul qilinsinmi?",
   "@askVerificationRequest": {
     "type": "text",
     "placeholders": {
       "username": {}
     }
   },
-  "autoplayImages": "Автоматически воспроизводить анимированные стикеры и эмодзи",
+  "autoplayImages": "Animatsiyali stikerlar va emojilarni avtomatik ravishda namoyish etish",
   "@autoplayImages": {
     "type": "text",
     "placeholder": {}
   },
-  "badServerLoginTypesException": "Домашний сервер поддерживает следующие типы входа в систему:\n{serverVersions}\nНо это приложение поддерживает только:\n{supportedVersions}",
+  "badServerLoginTypesException": "Uydagi server quyidagi kirish turlarini qoʻllab-quvvatlaydi:\n{serverVersions}\nAmmo bu ilova faqat quyidagilarni qoʻllab-quvvatlaydi:\n{supportedVersions}",
   "@badServerLoginTypesException": {
     "type": "text",
     "placeholders": {
@@ -127,7 +127,7 @@
       "supportedVersions": {}
     }
   },
-  "badServerVersionsException": "Домашний сервер поддерживает следующие версии спецификации:\n{serverVersions}\nНо это приложение поддерживает только {supportedVersions}",
+  "badServerVersionsException": "Uydagi server tavsifning quyidagi versiyalarini qoʻllab-quvvatlaydi:\n{serverVersions}\nAmmo bu ilova faqat {supportedVersions} versiyasini qoʻllab-quvvatlaydi",
   "@badServerVersionsException": {
     "type": "text",
     "placeholders": {
@@ -135,17 +135,17 @@
       "supportedVersions": {}
     }
   },
-  "banFromChat": "Заблокировать в чате",
+  "banFromChat": "Chatda bloklash",
   "@banFromChat": {
     "type": "text",
     "placeholders": {}
   },
-  "banned": "Заблокирован(а)",
+  "banned": "Bloklangan",
   "@banned": {
     "type": "text",
     "placeholders": {}
   },
-  "bannedUser": "{username} заблокировал(а) {targetName}",
+  "bannedUser": "{username} {targetName}ʼni blokladi",
   "@bannedUser": {
     "type": "text",
     "placeholders": {
@@ -153,46 +153,46 @@
       "targetName": {}
     }
   },
-  "blockDevice": "Заблокировать устройство",
+  "blockDevice": "Qurilmani bloklash",
   "@blockDevice": {
     "type": "text",
     "placeholders": {}
   },
-  "blocked": "Заблокировано",
+  "blocked": "Bloklangan",
   "@blocked": {
     "type": "text",
     "placeholders": {}
   },
-  "botMessages": "Сообщения ботов",
+  "botMessages": "Bot xabarlari",
   "@botMessages": {
     "type": "text",
     "placeholders": {}
   },
-  "cancel": "Отмена",
+  "cancel": "Bekor qilish",
   "@cancel": {
     "type": "text",
     "placeholders": {}
   },
-  "cantOpenUri": "Не удается открыть URI {uri}",
+  "cantOpenUri": "URI {uri} ochilmadi",
   "@cantOpenUri": {
     "type": "text",
     "placeholders": {
       "uri": {}
     }
   },
-  "changeDeviceName": "Изменить имя устройства",
+  "changeDeviceName": "Qurilma nomini oʻzgartirish",
   "@changeDeviceName": {
     "type": "text",
     "placeholders": {}
   },
-  "changedTheChatAvatar": "{username} изменил(а) аватар чата",
+  "changedTheChatAvatar": "{username} chat avatarini oʻzgartirdi",
   "@changedTheChatAvatar": {
     "type": "text",
     "placeholders": {
       "username": {}
     }
   },
-  "changedTheChatDescriptionTo": "{username} изменил(а) описание чата на: '{description}'",
+  "changedTheChatDescriptionTo": "{username} chat tavsifini quyidagiga oʻzgartirdi: ’{description}’",
   "@changedTheChatDescriptionTo": {
     "type": "text",
     "placeholders": {
@@ -200,7 +200,7 @@
       "description": {}
     }
   },
-  "changedTheChatNameTo": "{username} изменил(а) имя чата на: '{chatname}'",
+  "changedTheChatNameTo": "{username} chat nomini quyidagiga oʻzgartirdi: ’{chatname}’",
   "@changedTheChatNameTo": {
     "type": "text",
     "placeholders": {
@@ -208,14 +208,14 @@
       "chatname": {}
     }
   },
-  "changedTheChatPermissions": "{username} изменил(а) права доступа к чату",
+  "changedTheChatPermissions": "{username} chat ruxsatlarini oʻzgartirdi",
   "@changedTheChatPermissions": {
     "type": "text",
     "placeholders": {
       "username": {}
     }
   },
-  "changedTheDisplaynameTo": "{username} изменил(а) отображаемое имя на: '{displayname}'",
+  "changedTheDisplaynameTo": "{username} koʻrsatilgan nomni quyidagiga oʻzgartirdi: ’{displayname}’",
   "@changedTheDisplaynameTo": {
     "type": "text",
     "placeholders": {
@@ -223,14 +223,14 @@
       "displayname": {}
     }
   },
-  "changedTheGuestAccessRules": "{username} изменил(а) правила гостевого доступа",
+  "changedTheGuestAccessRules": "{username} mehmonlar kirish qoidalarini oʻzgartirdi",
   "@changedTheGuestAccessRules": {
     "type": "text",
     "placeholders": {
       "username": {}
     }
   },
-  "changedTheGuestAccessRulesTo": "{username} изменил(а) правила гостевого доступа на: {rules}",
+  "changedTheGuestAccessRulesTo": "{username} mehmon ruxsati qoidalarini quyidagilarga oʻzgartirdi: {rules}",
   "@changedTheGuestAccessRulesTo": {
     "type": "text",
     "placeholders": {
@@ -238,14 +238,14 @@
       "rules": {}
     }
   },
-  "changedTheHistoryVisibility": "{username} изменил(а) видимость истории",
+  "changedTheHistoryVisibility": "{username} hikoya koʻrinishini oʻzgartirdi",
   "@changedTheHistoryVisibility": {
     "type": "text",
     "placeholders": {
       "username": {}
     }
   },
-  "changedTheHistoryVisibilityTo": "{username} изменил(а) видимость истории на: {rules}",
+  "changedTheHistoryVisibilityTo": "{username} hikoya koʻrinishini quyidagiga oʻzgartirdi: {rules}",
   "@changedTheHistoryVisibilityTo": {
     "type": "text",
     "placeholders": {
@@ -253,14 +253,14 @@
       "rules": {}
     }
   },
-  "changedTheJoinRules": "{username} изменил(а) правила присоединения",
+  "changedTheJoinRules": "{username} qoʻshilish qoidalarini oʻzgartirdi",
   "@changedTheJoinRules": {
     "type": "text",
     "placeholders": {
       "username": {}
     }
   },
-  "changedTheJoinRulesTo": "{username} изменил(а) правила присоединения на: {joinRules}",
+  "changedTheJoinRulesTo": "{username} qoʻshilish qoidalarini quyidagilarga oʻzgartirdi: {joinRules}",
   "@changedTheJoinRulesTo": {
     "type": "text",
     "placeholders": {
@@ -268,78 +268,78 @@
       "joinRules": {}
     }
   },
-  "changedTheProfileAvatar": "{username} изменил(а) аватар",
+  "changedTheProfileAvatar": "{username} avatarini oʻzgartirdi",
   "@changedTheProfileAvatar": {
     "type": "text",
     "placeholders": {
       "username": {}
     }
   },
-  "changedTheRoomAliases": "{username} изменил(а) псевдонимы комнаты",
+  "changedTheRoomAliases": "{username} xona taxalluslarini oʻzgartirdi",
   "@changedTheRoomAliases": {
     "type": "text",
     "placeholders": {
       "username": {}
     }
   },
-  "changedTheRoomInvitationLink": "{username} изменил(а) ссылку для приглашения",
+  "changedTheRoomInvitationLink": "{username} taklif havolasini oʻzgartirdi",
   "@changedTheRoomInvitationLink": {
     "type": "text",
     "placeholders": {
       "username": {}
     }
   },
-  "changePassword": "Изменить пароль",
+  "changePassword": "Parolni oʻzgartirish",
   "@changePassword": {
     "type": "text",
     "placeholders": {}
   },
-  "changeTheHomeserver": "Изменить сервер Matrix",
+  "changeTheHomeserver": "Matrix serverini oʻzgartirish",
   "@changeTheHomeserver": {
     "type": "text",
     "placeholders": {}
   },
-  "changeTheme": "Тема",
+  "changeTheme": "Mavzu",
   "@changeTheme": {
     "type": "text",
     "placeholders": {}
   },
-  "changeTheNameOfTheGroup": "Изменить название чата",
+  "changeTheNameOfTheGroup": "Chat nomini oʻzgartirish",
   "@changeTheNameOfTheGroup": {
     "type": "text",
     "placeholders": {}
   },
-  "changeWallpaper": "Изменить фон чатов",
+  "changeWallpaper": "Chatlar fonini oʻzgartirish",
   "@changeWallpaper": {
     "type": "text",
     "placeholders": {}
   },
-  "changeYourAvatar": "Изменить свой аватар",
+  "changeYourAvatar": "Avatarni oʻzgartirish",
   "@changeYourAvatar": {
     "type": "text",
     "placeholders": {}
   },
-  "channelCorruptedDecryptError": "Шифрование было повреждено",
+  "channelCorruptedDecryptError": "Shifrlash shikastlangan",
   "@channelCorruptedDecryptError": {
     "type": "text",
     "placeholders": {}
   },
-  "chat": "Чат",
+  "chat": "Chat",
   "@chat": {
     "type": "text",
     "placeholders": {}
   },
-  "chatBackup": "Резервное копирование чата",
+  "chatBackup": "Chatni zaxiralash",
   "@chatBackup": {
     "type": "text",
     "placeholders": {}
   },
-  "chatBackupDescription": "Старые сообщения защищены ключом восстановления. Пожалуйста, не потеряйте его.",
+  "chatBackupDescription": "Eski xabarlar tiklash kaliti bilan himoyalangan. Iltimos, uni yoʻqotmang.",
   "@chatBackupDescription": {
     "type": "text",
     "placeholders": {}
   },
-  "chatDetails": "Детали чата",
+  "chatDetails": "Chat tafsilotlari",
   "@chatDetails": {
     "type": "text",
     "placeholders": {}
@@ -349,98 +349,98 @@
     "type": "text",
     "placeholders": {}
   },
-  "chooseAStrongPassword": "Выберите надёжный пароль",
+  "chooseAStrongPassword": "Ishonchli parolni tanlang",
   "@chooseAStrongPassword": {
     "type": "text",
     "placeholders": {}
   },
-  "chooseAUsername": "Выберите имя пользователя",
+  "chooseAUsername": "Foydalanuvchi nomini tanlang",
   "@chooseAUsername": {
     "type": "text",
     "placeholders": {}
   },
-  "clearArchive": "Очистить архив",
+  "clearArchive": "Arxivni tozalash",
   "@clearArchive": {},
-  "close": "Закрыть",
+  "close": "Yopish",
   "@close": {
     "type": "text",
     "placeholders": {}
   },
-  "commandHint_ban": "Заблокировать данного пользователя в этой комнате",
+  "commandHint_ban": "Bu foydalanuvchini ushbu xonada bloklash",
   "@commandHint_ban": {
     "type": "text",
     "description": "Usage hint for the command /ban"
   },
-  "commandHint_html": "Отправить текст формата HTML",
+  "commandHint_html": "HTML formatidagi matnni yuborish",
   "@commandHint_html": {
     "type": "text",
     "description": "Usage hint for the command /html"
   },
-  "commandHint_invite": "Пригласить данного пользователя в эту комнату",
+  "commandHint_invite": "Bu foydalanuvchini ushbu xonaga taklif qilish",
   "@commandHint_invite": {
     "type": "text",
     "description": "Usage hint for the command /invite"
   },
-  "commandHint_join": "Присоединиться к данной комнате",
+  "commandHint_join": "Ushbu xonaga qoʻshiling",
   "@commandHint_join": {
     "type": "text",
     "description": "Usage hint for the command /join"
   },
-  "commandHint_kick": "Удалить данного пользователя из этой комнаты",
+  "commandHint_kick": "Bu foydalanuvchini ushbu xonadan olib tashlash",
   "@commandHint_kick": {
     "type": "text",
     "description": "Usage hint for the command /kick"
   },
-  "commandHint_leave": "Покинуть эту комнату",
+  "commandHint_leave": "Bu xonani tark etish",
   "@commandHint_leave": {
     "type": "text",
     "description": "Usage hint for the command /leave"
   },
-  "commandHint_me": "Опишите себя",
+  "commandHint_me": "Oʻzingiz haqingizda gapirib bering",
   "@commandHint_me": {
     "type": "text",
     "description": "Usage hint for the command /me"
   },
-  "commandHint_myroomavatar": "Установите свою фотографию для этой комнаты (автор: mxc-uri)",
+  "commandHint_myroomavatar": "Bu xona uchun suratingizni oʻrnating (muallif: mxc-uri)",
   "@commandHint_myroomavatar": {
     "type": "text",
     "description": "Usage hint for the command /myroomavatar"
   },
-  "commandHint_myroomnick": "Задайте отображаемое имя для этой комнаты",
+  "commandHint_myroomnick": "Bu xona uchun koʻrsatilgan nomni kiriting",
   "@commandHint_myroomnick": {
     "type": "text",
     "description": "Usage hint for the command /myroomnick"
   },
-  "commandHint_op": "Установить уровень прав данного пользователя (по умолчанию: 50)",
+  "commandHint_op": "Bu foydalanuvchining huquq darajasini belgilash (odatiy: 50)",
   "@commandHint_op": {
     "type": "text",
     "description": "Usage hint for the command /op"
   },
-  "commandHint_plain": "Отправить неотформатированный текст",
+  "commandHint_plain": "Formatlanmagan matnni yuborish",
   "@commandHint_plain": {
     "type": "text",
     "description": "Usage hint for the command /plain"
   },
-  "commandHint_react": "Отправить ответ как реакцию",
+  "commandHint_react": "Javobni reaksiya sifatida yuborish",
   "@commandHint_react": {
     "type": "text",
     "description": "Usage hint for the command /react"
   },
-  "commandHint_send": "Отправить текст",
+  "commandHint_send": "Matnni yuborish",
   "@commandHint_send": {
     "type": "text",
     "description": "Usage hint for the command /send"
   },
-  "commandHint_unban": "Разблокировать данного пользователя в этой комнате",
+  "commandHint_unban": "Ushbu foydalanuvchini bu xonada blokdan chiqarish",
   "@commandHint_unban": {
     "type": "text",
     "description": "Usage hint for the command /unban"
   },
-  "commandInvalid": "Недопустимая команда",
+  "commandInvalid": "Yaroqsiz buyruq",
   "@commandInvalid": {
     "type": "text"
   },
-  "commandMissing": "{command} не является командой.",
+  "commandMissing": "{command} buyruq emas.",
   "@commandMissing": {
     "type": "text",
     "placeholders": {
@@ -448,113 +448,113 @@
     },
     "description": "State that {command} is not a valid /command."
   },
-  "compareEmojiMatch": "Пожалуйста, сравните эмодзи",
+  "compareEmojiMatch": "Emojilarni taqqoslang",
   "@compareEmojiMatch": {
     "type": "text",
     "placeholders": {}
   },
-  "compareNumbersMatch": "Пожалуйста, сравните числа",
+  "compareNumbersMatch": "Iltimos, sonlarni taqqoslang",
   "@compareNumbersMatch": {
     "type": "text",
     "placeholders": {}
   },
-  "configureChat": "Настроить чат",
+  "configureChat": "Chatni sozlash",
   "@configureChat": {
     "type": "text",
     "placeholders": {}
   },
-  "confirm": "Подтвердить",
+  "confirm": "Tasdiqlash",
   "@confirm": {
     "type": "text",
     "placeholders": {}
   },
-  "connect": "Присоединиться",
+  "connect": "Qoʻshilish",
   "@connect": {
     "type": "text",
     "placeholders": {}
   },
-  "contactHasBeenInvitedToTheGroup": "Контакт был приглашен в чат",
+  "contactHasBeenInvitedToTheGroup": "Kontakt chatga taklif qilindi",
   "@contactHasBeenInvitedToTheGroup": {
     "type": "text",
     "placeholders": {}
   },
-  "containsDisplayName": "Содержит отображаемое имя",
+  "containsDisplayName": "Tarkibida ko‘rsatilgan nom mavjud",
   "@containsDisplayName": {
     "type": "text",
     "placeholders": {}
   },
-  "containsUserName": "Содержит имя пользователя",
+  "containsUserName": "Tarkibida foydalanuvchi nomi mavjud",
   "@containsUserName": {
     "type": "text",
     "placeholders": {}
   },
-  "contentHasBeenReported": "Жалоба отправлена администраторам сервера",
+  "contentHasBeenReported": "Shikoyat server administratorlariga yuborildi",
   "@contentHasBeenReported": {
     "type": "text",
     "placeholders": {}
   },
-  "copiedToClipboard": "Скопировано в буфер обмена",
+  "copiedToClipboard": "Buferga nusxalandi",
   "@copiedToClipboard": {
     "type": "text",
     "placeholders": {}
   },
-  "copy": "Копировать",
+  "copy": "Nusxa koʻchirish",
   "@copy": {
     "type": "text",
     "placeholders": {}
   },
-  "copyToClipboard": "Скопировать в буфер обмена",
+  "copyToClipboard": "Buferga nusxalash",
   "@copyToClipboard": {
     "type": "text",
     "placeholders": {}
   },
-  "couldNotDecryptMessage": "Не удалось расшифровать сообщение: {error}",
+  "couldNotDecryptMessage": "Xabar shifrini ochib boʻlmadi: {error}",
   "@couldNotDecryptMessage": {
     "type": "text",
     "placeholders": {
       "error": {}
     }
   },
-  "countParticipants": "{count} участника(ов)",
+  "countParticipants": "{count} ta aʼzo",
   "@countParticipants": {
     "type": "text",
     "placeholders": {
       "count": {}
     }
   },
-  "create": "Создать",
+  "create": "Yaratish",
   "@create": {
     "type": "text",
     "placeholders": {}
   },
-  "createdTheChat": "{username} создал(а) чат",
+  "createdTheChat": "{username} chat yaratdi",
   "@createdTheChat": {
     "type": "text",
     "placeholders": {
       "username": {}
     }
   },
-  "createNewGroup": "Создать новый чат",
+  "createNewGroup": "Yangi chat yaratish",
   "@createNewGroup": {
     "type": "text",
     "placeholders": {}
   },
-  "createNewSpace": "Новое пространство",
+  "createNewSpace": "Yangi maydon",
   "@createNewSpace": {
     "type": "text",
     "placeholders": {}
   },
-  "crossSigningEnabled": "Кросс-подпись включена",
+  "crossSigningEnabled": "Kross-imzo yoqilgan",
   "@crossSigningEnabled": {
     "type": "text",
     "placeholders": {}
   },
-  "currentlyActive": "В настоящее время активен(а)",
+  "currentlyActive": "Ayni paytda faol",
   "@currentlyActive": {
     "type": "text",
     "placeholders": {}
   },
-  "darkTheme": "Тёмная",
+  "darkTheme": "Qorongʻi",
   "@darkTheme": {
     "type": "text",
     "placeholders": {}
@@ -584,203 +584,203 @@
       "day": {}
     }
   },
-  "deactivateAccountWarning": "Это действие деактивирует вашу учётную запись. Оно не может быть отменено! Вы уверены?",
+  "deactivateAccountWarning": "Bu harakat hisobingizni oʻchiradi. Uni qaytarib boʻlmaydi! Siz bunga toʻliq ishonchingiz komilmi?",
   "@deactivateAccountWarning": {
     "type": "text",
     "placeholders": {}
   },
-  "defaultPermissionLevel": "Уровень разрешений по умолчанию",
+  "defaultPermissionLevel": "Standart ruxsat darajasi",
   "@defaultPermissionLevel": {
     "type": "text",
     "placeholders": {}
   },
-  "delete": "Удалить",
+  "delete": "O‘chirish",
   "@delete": {
     "type": "text",
     "placeholders": {}
   },
-  "deleteAccount": "Удалить аккаунт",
+  "deleteAccount": "Hisobni oʻchirish",
   "@deleteAccount": {
     "type": "text",
     "placeholders": {}
   },
-  "deleteMessage": "Удалить сообщение",
+  "deleteMessage": "Xabarni oʻchirish",
   "@deleteMessage": {
     "type": "text",
     "placeholders": {}
   },
-  "deny": "Отклонить",
+  "deny": "Rad etish",
   "@deny": {
     "type": "text",
     "placeholders": {}
   },
-  "device": "Устройство",
+  "device": "Qurilma",
   "@device": {
     "type": "text",
     "placeholders": {}
   },
-  "deviceId": "Идентификатор устройства",
+  "deviceId": "Qurilma identifikatori",
   "@deviceId": {
     "type": "text",
     "placeholders": {}
   },
-  "devices": "Устройства",
+  "devices": "Qurilmalar",
   "@devices": {
     "type": "text",
     "placeholders": {}
   },
-  "directChats": "Личные чаты",
+  "directChats": "Shaxsiy chatlar",
   "@directChats": {
     "type": "text",
     "placeholders": {}
   },
-  "discover": "Обзор",
+  "discover": "Ko‘rib chiqish",
   "@discover": {
     "type": "text",
     "placeholders": {}
   },
-  "displaynameHasBeenChanged": "Отображаемое имя было изменено",
+  "displaynameHasBeenChanged": "Ko‘rsatiladigan nom o‘zgartirildi",
   "@displaynameHasBeenChanged": {
     "type": "text",
     "placeholders": {}
   },
-  "edit": "Править",
+  "edit": "Tahrirlash",
   "@edit": {
     "type": "text",
     "placeholders": {}
   },
-  "editBlockedServers": "Редактировать заблокированные серверы",
+  "editBlockedServers": "Bloklangan serverlarni tahrirlash",
   "@editBlockedServers": {
     "type": "text",
     "placeholders": {}
   },
-  "editChatPermissions": "Изменить разрешения чата",
+  "editChatPermissions": "Chat ruxsatlarini oʻzgartirish",
   "@editChatPermissions": {
     "type": "text",
     "placeholders": {}
   },
-  "editDisplayname": "Отображаемое имя",
+  "editDisplayname": "Ko‘rsatiladigan nom",
   "@editDisplayname": {
     "type": "text",
     "placeholders": {}
   },
-  "editRoomAliases": "Редактировать псевдонимы комнаты",
+  "editRoomAliases": "Xona taxalluslarini tahrirlash",
   "@editRoomAliases": {
     "type": "text",
     "placeholders": {}
   },
-  "editRoomAvatar": "Изменить аватар чата",
+  "editRoomAvatar": "Chat avatarini oʻzgartirish",
   "@editRoomAvatar": {
     "type": "text",
     "placeholders": {}
   },
-  "emoteExists": "Эмодзи уже существует!",
+  "emoteExists": "Emoji allaqachon mavjud!",
   "@emoteExists": {
     "type": "text",
     "placeholders": {}
   },
-  "emoteInvalid": "Недопустимый краткий код эмодзи!",
+  "emoteInvalid": "Yaroqsiz emoji kodi!",
   "@emoteInvalid": {
     "type": "text",
     "placeholders": {}
   },
-  "emotePacks": "Наборы эмодзи для комнаты",
+  "emotePacks": "Xona uchun emoji toʻplamlari",
   "@emotePacks": {
     "type": "text",
     "placeholders": {}
   },
-  "emoteSettings": "Настройки эмодзи",
+  "emoteSettings": "Emoji sozlamalari",
   "@emoteSettings": {
     "type": "text",
     "placeholders": {}
   },
-  "emoteShortcode": "Краткий код для эмодзи",
+  "emoteShortcode": "Emoji uchun qisqa kod",
   "@emoteShortcode": {
     "type": "text",
     "placeholders": {}
   },
-  "emoteWarnNeedToPick": "Вам нужно задать код эмодзи и изображение!",
+  "emoteWarnNeedToPick": "Emoji kodi va rasmni kiritishingiz kerak!",
   "@emoteWarnNeedToPick": {
     "type": "text",
     "placeholders": {}
   },
-  "emptyChat": "Пустой чат",
+  "emptyChat": "Boʻsh chat",
   "@emptyChat": {
     "type": "text",
     "placeholders": {}
   },
-  "enableEmotesGlobally": "Включить набор эмодзи глобально",
+  "enableEmotesGlobally": "Global emoji paketini yoqish",
   "@enableEmotesGlobally": {
     "type": "text",
     "placeholders": {}
   },
-  "enableEncryption": "Включить сквозное шифрование",
+  "enableEncryption": "Uzluksiz shifrlashni yoqish",
   "@enableEncryption": {
     "type": "text",
     "placeholders": {}
   },
-  "enableEncryptionWarning": "Вы больше не сможете отключить шифрование. Вы уверены?",
+  "enableEncryptionWarning": "Endi shifrlashni faolsizlantira olmaysiz. Ishonchingiz komilmi?",
   "@enableEncryptionWarning": {
     "type": "text",
     "placeholders": {}
   },
-  "encrypted": "Зашифровано",
+  "encrypted": "Shifrlangan",
   "@encrypted": {
     "type": "text",
     "placeholders": {}
   },
-  "encryption": "Шифрование",
+  "encryption": "Shifrlash",
   "@encryption": {
     "type": "text",
     "placeholders": {}
   },
-  "encryptionNotEnabled": "Шифрование не включено",
+  "encryptionNotEnabled": "Shifrlash yoqilmagan",
   "@encryptionNotEnabled": {
     "type": "text",
     "placeholders": {}
   },
-  "endedTheCall": "{senderName} завершил(а) звонок",
+  "endedTheCall": "{senderName} chaqiruvni yakunladi",
   "@endedTheCall": {
     "type": "text",
     "placeholders": {
       "senderName": {}
     }
   },
-  "enterAGroupName": "Введите название чата",
+  "enterAGroupName": "Chat nomini kiriting",
   "@enterAGroupName": {
     "type": "text",
     "placeholders": {}
   },
-  "enterAnEmailAddress": "Введите адрес электронной почты",
+  "enterAnEmailAddress": "Email manzilini kiriting",
   "@enterAnEmailAddress": {
     "type": "text",
     "placeholders": {}
   },
-  "enterASpacepName": "Введите название пространства",
+  "enterASpacepName": "Maydon nomini kiriting",
   "@enterASpacepName": {},
-  "enterYourHomeserver": "Введите адрес вашего сервера Matrix",
+  "enterYourHomeserver": "Matrix serveringiz manzilini kiriting",
   "@enterYourHomeserver": {
     "type": "text",
     "placeholders": {}
   },
-  "errorObtainingLocation": "Ошибка получения местоположения: {error}",
+  "errorObtainingLocation": "Joylashuvni aniqlashda xatolik: {error}",
   "@errorObtainingLocation": {
     "type": "text",
     "placeholders": {
       "error": {}
     }
   },
-  "everythingReady": "Всё готово!",
+  "everythingReady": "Hammasi tayyor!",
   "@everythingReady": {
     "type": "text",
     "placeholders": {}
   },
-  "extremeOffensive": "Крайне оскорбительный",
+  "extremeOffensive": "Oʻta haqoratomuz",
   "@extremeOffensive": {
     "type": "text",
     "placeholders": {}
   },
-  "fileName": "Имя файла",
+  "fileName": "Fayl nomi",
   "@fileName": {
     "type": "text",
     "placeholders": {}
@@ -790,74 +790,74 @@
     "type": "text",
     "placeholders": {}
   },
-  "fontSize": "Размер шрифта",
+  "fontSize": "Shrift oʻlchami",
   "@fontSize": {
     "type": "text",
     "placeholders": {}
   },
-  "forward": "Переслать",
+  "forward": "Uzatish",
   "@forward": {
     "type": "text",
     "placeholders": {}
   },
-  "fromJoining": "С момента присоединения",
+  "fromJoining": "Qoʻshilgan paytdan boshlab",
   "@fromJoining": {
     "type": "text",
     "placeholders": {}
   },
-  "fromTheInvitation": "С момента приглашения",
+  "fromTheInvitation": "Taklif qilingan vaqtdan boshlab",
   "@fromTheInvitation": {
     "type": "text",
     "placeholders": {}
   },
-  "goToTheNewRoom": "В новую комнату",
+  "goToTheNewRoom": "Yangi xonaga",
   "@goToTheNewRoom": {
     "type": "text",
     "placeholders": {}
   },
-  "group": "Чат",
+  "group": "Chat",
   "@group": {
     "type": "text",
     "placeholders": {}
   },
-  "groupDescription": "Описание группового чата",
+  "groupDescription": "Guruh chati tavsifi",
   "@groupDescription": {
     "type": "text",
     "placeholders": {}
   },
-  "groupDescriptionHasBeenChanged": "Описание группового чата изменено",
+  "groupDescriptionHasBeenChanged": "Guruh chati tavsifi oʻzgartirildi",
   "@groupDescriptionHasBeenChanged": {
     "type": "text",
     "placeholders": {}
   },
-  "groupIsPublic": "Публичный групповой чат",
+  "groupIsPublic": "Ommaviy guruh chati",
   "@groupIsPublic": {
     "type": "text",
     "placeholders": {}
   },
-  "groups": "Групповые чаты",
+  "groups": "Guruh chatlari",
   "@groups": {
     "type": "text",
     "placeholders": {}
   },
-  "groupWith": "Групповой чат с {displayname}",
+  "groupWith": "{displayname} bilan guruh chati",
   "@groupWith": {
     "type": "text",
     "placeholders": {
       "displayname": {}
     }
   },
-  "guestsAreForbidden": "Гости не могут присоединиться",
+  "guestsAreForbidden": "Mehmonlar kira olmaydi",
   "@guestsAreForbidden": {
     "type": "text",
     "placeholders": {}
   },
-  "guestsCanJoin": "Гости могут присоединиться",
+  "guestsCanJoin": "Mehmonlar kira oladi",
   "@guestsCanJoin": {
     "type": "text",
     "placeholders": {}
   },
-  "hasWithdrawnTheInvitationFor": "{username} отозвал(а) приглашение для {targetName}",
+  "hasWithdrawnTheInvitationFor": "{username} {targetName} uchun taklifni bekor qildi",
   "@hasWithdrawnTheInvitationFor": {
     "type": "text",
     "placeholders": {
@@ -865,22 +865,22 @@
       "targetName": {}
     }
   },
-  "help": "Помощь",
+  "help": "Yordam",
   "@help": {
     "type": "text",
     "placeholders": {}
   },
-  "hideRedactedEvents": "Скрыть удаленные сообщения",
+  "hideRedactedEvents": "Masofaviy xabarlarni berkitish",
   "@hideRedactedEvents": {
     "type": "text",
     "placeholders": {}
   },
-  "hideUnknownEvents": "Скрыть неизвестные события",
+  "hideUnknownEvents": "Nomaʼlum hodisalarni berkitish",
   "@hideUnknownEvents": {
     "type": "text",
     "placeholders": {}
   },
-  "howOffensiveIsThisContent": "Насколько оскорбительным является это сообщение?",
+  "howOffensiveIsThisContent": "Bu xabar qanchalik haqoratli?",
   "@howOffensiveIsThisContent": {
     "type": "text",
     "placeholders": {}
@@ -890,64 +890,64 @@
     "type": "text",
     "placeholders": {}
   },
-  "identity": "Идентификация",
+  "identity": "Identifikatsiya",
   "@identity": {
     "type": "text",
     "placeholders": {}
   },
-  "ignore": "Заблокировать",
+  "ignore": "Bloklash",
   "@ignore": {
     "type": "text",
     "placeholders": {}
   },
-  "ignoredUsers": "Черный список",
+  "ignoredUsers": "Qora roʻyxat",
   "@ignoredUsers": {
     "type": "text",
     "placeholders": {}
   },
-  "ignoreListDescription": "Вы можете заблокировать пользователей, которые вам мешают. Вы не сможете получать сообщения или приглашения в чаты от пользователей из вашего черного списка.",
+  "ignoreListDescription": "Sizni bezovta qilayotgan foydalanuvchilarni bloklashingiz mumkin. Qora roʻyxatingizga kiritilgan foydalanuvchilardan xabarlar yoki suhbatlarga takliflar ololmaysiz.",
   "@ignoreListDescription": {
     "type": "text",
     "placeholders": {}
   },
-  "ignoreUsername": "Заблокировать пользователя",
+  "ignoreUsername": "Foydalanuvchini bloklash",
   "@ignoreUsername": {
     "type": "text",
     "placeholders": {}
   },
-  "iHaveClickedOnLink": "Я перешёл по ссылке",
+  "iHaveClickedOnLink": "Men havola orqali oʻtdim",
   "@iHaveClickedOnLink": {
     "type": "text",
     "placeholders": {}
   },
-  "incorrectPassphraseOrKey": "Неверный пароль или ключ восстановления",
+  "incorrectPassphraseOrKey": "Parol yoki tiklash kaliti xato",
   "@incorrectPassphraseOrKey": {
     "type": "text",
     "placeholders": {}
   },
-  "inoffensive": "Безобидный",
+  "inoffensive": "Zararsiz",
   "@inoffensive": {
     "type": "text",
     "placeholders": {}
   },
-  "inviteContact": "Пригласить контакт",
+  "inviteContact": "Kontaktni taklif qilish",
   "@inviteContact": {
     "type": "text",
     "placeholders": {}
   },
-  "inviteContactToGroup": "Пригласить контакт в {groupName}",
+  "inviteContactToGroup": "Kontaktni {groupName} guruhiga taklif qilish",
   "@inviteContactToGroup": {
     "type": "text",
     "placeholders": {
       "groupName": {}
     }
   },
-  "invited": "Приглашён",
+  "invited": "Taklif qilindi",
   "@invited": {
     "type": "text",
     "placeholders": {}
   },
-  "invitedUser": "{username} пригласил(а) {targetName}",
+  "invitedUser": "{username} {targetName}ʼni taklif qildi",
   "@invitedUser": {
     "type": "text",
     "placeholders": {
@@ -955,17 +955,17 @@
       "targetName": {}
     }
   },
-  "invitedUsersOnly": "Только приглашённым пользователям",
+  "invitedUsersOnly": "Faqat taklif qilingan foydalanuvchilarga",
   "@invitedUsersOnly": {
     "type": "text",
     "placeholders": {}
   },
-  "inviteForMe": "Приглашение для меня",
+  "inviteForMe": "Oʻzim uchun taklifnoma",
   "@inviteForMe": {
     "type": "text",
     "placeholders": {}
   },
-  "inviteText": "{username} пригласил(а) вас в FluffyChat. \n1. Установите FluffyChat: https://fluffychat.im \n2. Зарегистрируйтесь или войдите \n3. Откройте ссылку приглашения: {link}",
+  "inviteText": "{username} sizni FluffyChatʼga taklif etdi.\n1. FluffyChat ilovasini oʻrnating: https://fluffychat.im\n2. Roʻyxatdan oʻting yoki hisobingizga kiring\n3. Taklif havolasini oching: {link}",
   "@inviteText": {
     "type": "text",
     "placeholders": {
@@ -973,29 +973,29 @@
       "link": {}
     }
   },
-  "isTyping": "печатает…",
+  "isTyping": "yozmoqda...",
   "@isTyping": {
     "type": "text",
     "placeholders": {}
   },
-  "joinedTheChat": "{username} присоединился(ась) к чату",
+  "joinedTheChat": "{username} chatga qoʻshildi",
   "@joinedTheChat": {
     "type": "text",
     "placeholders": {
       "username": {}
     }
   },
-  "joinRoom": "Присоединиться к комнате",
+  "joinRoom": "Xonaga kirish",
   "@joinRoom": {
     "type": "text",
     "placeholders": {}
   },
-  "keysCached": "Ключи сохранены в кэше",
+  "keysCached": "Kalitlar keshga saqlandi",
   "@keysCached": {
     "type": "text",
     "placeholders": {}
   },
-  "kicked": "{username} исключил(а) {targetName}",
+  "kicked": "{username} {targetName}ʼni olib tashladi",
   "@kicked": {
     "type": "text",
     "placeholders": {
@@ -1003,7 +1003,7 @@
       "targetName": {}
     }
   },
-  "kickedAndBanned": "{username} исключил(а) и заблокировал(а) {targetName}",
+  "kickedAndBanned": "{username} {targetName}ʼni chiqarib tashladi va blokladi",
   "@kickedAndBanned": {
     "type": "text",
     "placeholders": {
@@ -1011,175 +1011,175 @@
       "targetName": {}
     }
   },
-  "kickFromChat": "Исключить из чата",
+  "kickFromChat": "Chatdan olib tashlash",
   "@kickFromChat": {
     "type": "text",
     "placeholders": {}
   },
-  "lastActiveAgo": "Последнее посещение: {localizedTimeShort}",
+  "lastActiveAgo": "Oxirgi tashrif: {localizedTimeShort}",
   "@lastActiveAgo": {
     "type": "text",
     "placeholders": {
       "localizedTimeShort": {}
     }
   },
-  "lastSeenLongTimeAgo": "был(а) в сети давно",
+  "lastSeenLongTimeAgo": "Tarmoqda ancha vaqtdan beri mavjud",
   "@lastSeenLongTimeAgo": {
     "type": "text",
     "placeholders": {}
   },
-  "leave": "Покинуть",
+  "leave": "Tark etmoq",
   "@leave": {
     "type": "text",
     "placeholders": {}
   },
-  "leftTheChat": "Покинуть чат",
+  "leftTheChat": "Chatni tark etish",
   "@leftTheChat": {
     "type": "text",
     "placeholders": {}
   },
-  "license": "Лицензия",
+  "license": "Litsenziya",
   "@license": {
     "type": "text",
     "placeholders": {}
   },
-  "lightTheme": "Светлая",
+  "lightTheme": "Yorugʻ",
   "@lightTheme": {
     "type": "text",
     "placeholders": {}
   },
-  "loadCountMoreParticipants": "Загрузить еще {count} участника(ов)",
+  "loadCountMoreParticipants": "Yana {count} ta aʼzo yuklang",
   "@loadCountMoreParticipants": {
     "type": "text",
     "placeholders": {
       "count": {}
     }
   },
-  "loadingPleaseWait": "Загрузка... Пожалуйста, подождите.",
+  "loadingPleaseWait": "Yuklanmoqda... Iltimos, kutib turing.",
   "@loadingPleaseWait": {
     "type": "text",
     "placeholders": {}
   },
-  "loadMore": "Загрузить больше…",
+  "loadMore": "Koʻproq yuklash...",
   "@loadMore": {
     "type": "text",
     "placeholders": {}
   },
-  "locationDisabledNotice": "Службы определения местоположения отключены. Включите их, чтобы иметь возможность обмениваться информацией о своем местоположении.",
+  "locationDisabledNotice": "Joylashuvni aniqlash xizmatlari oʻchirilgan. Joylashuvingiz haqidagi maʼlumotlarni almashish imkoniyatiga ega boʻlish uchun ularni yoqing.",
   "@locationDisabledNotice": {
     "type": "text",
     "placeholders": {}
   },
-  "locationPermissionDeniedNotice": "Разрешение на определение местоположения отклонено. Пожалуйста, предоставьте это разрешение, чтобы иметь возможность делиться своим местоположением.",
+  "locationPermissionDeniedNotice": "Joylashuvni aniqlash uchun ruxsat berilmadi. Iltimos, oʻz joylashuvingizni ulashish imkoniyatiga ega boʻlish uchun ushbu ruxsatni bering.",
   "@locationPermissionDeniedNotice": {
     "type": "text",
     "placeholders": {}
   },
-  "login": "Войти",
+  "login": "Kirish",
   "@login": {
     "type": "text",
     "placeholders": {}
   },
-  "logInTo": "Войти в {homeserver}",
+  "logInTo": "{homeserver}ʼga kirish",
   "@logInTo": {
     "type": "text",
     "placeholders": {
       "homeserver": {}
     }
   },
-  "loginWith": "Войти через {brand}",
+  "loginWith": "{brand} orqali kirish",
   "@loginWith": {
     "type": "text",
     "placeholders": {
       "brand": {}
     }
   },
-  "logout": "Выйти",
+  "logout": "Chiqish",
   "@logout": {
     "type": "text",
     "placeholders": {}
   },
-  "makeSureTheIdentifierIsValid": "Убедитесь, что идентификатор действителен",
+  "makeSureTheIdentifierIsValid": "Identifikator yaroqli ekanini tekshiring",
   "@makeSureTheIdentifierIsValid": {
     "type": "text",
     "placeholders": {}
   },
-  "memberChanges": "Изменения участников",
+  "memberChanges": "Ishtirokchilar oʻzgarishi",
   "@memberChanges": {
     "type": "text",
     "placeholders": {}
   },
-  "mention": "Упомянуть",
+  "mention": "Eslatib oʻtmoq",
   "@mention": {
     "type": "text",
     "placeholders": {}
   },
-  "messages": "Сообщения",
+  "messages": "Xabarlar",
   "@messages": {
     "type": "text",
     "placeholders": {}
   },
-  "messageWillBeRemovedWarning": "Сообщение будет удалено для всех участников",
+  "messageWillBeRemovedWarning": "Xabar barcha ishtirokchilar uchun oʻchirib tashlanadi",
   "@messageWillBeRemovedWarning": {
     "type": "text",
     "placeholders": {}
   },
-  "moderator": "Модератор",
+  "moderator": "Moderator",
   "@moderator": {
     "type": "text",
     "placeholders": {}
   },
-  "muteChat": "Отключить уведомления",
+  "muteChat": "Bildirishnomalarni faolsizlantirish",
   "@muteChat": {
     "type": "text",
     "placeholders": {}
   },
-  "needPantalaimonWarning": "Помните, что вам нужен Pantalaimon для использования сквозного шифрования.",
+  "needPantalaimonWarning": "Yodda tuting, boshidan oxirigacha shifrlashdan foydalanish uchun sizga Pantalaimon kerak.",
   "@needPantalaimonWarning": {
     "type": "text",
     "placeholders": {}
   },
-  "newChat": "Новый чат",
+  "newChat": "Yangi chat",
   "@newChat": {
     "type": "text",
     "placeholders": {}
   },
-  "newVerificationRequest": "Новый запрос на подтверждение!",
+  "newVerificationRequest": "Yangi tasdiqlash soʻrovi!",
   "@newVerificationRequest": {
     "type": "text",
     "placeholders": {}
   },
-  "next": "Далее",
+  "next": "Keyingi",
   "@next": {
     "type": "text",
     "placeholders": {}
   },
-  "no": "Нет",
+  "no": "Yoʻq",
   "@no": {
     "type": "text",
     "placeholders": {}
   },
-  "noConnectionToTheServer": "Нет соединения с сервером",
+  "noConnectionToTheServer": "Server bilan aloqa yoʻq",
   "@noConnectionToTheServer": {
     "type": "text",
     "placeholders": {}
   },
-  "noEmotesFound": "Эмодзи не найдены 😕",
+  "noEmotesFound": "Emoji topilmadi 😕",
   "@noEmotesFound": {
     "type": "text",
     "placeholders": {}
   },
-  "noEncryptionForPublicRooms": "Вы можете активировать шифрование только тогда, когда комната перестает быть общедоступной.",
+  "noEncryptionForPublicRooms": "Xona ochiq boʻlmagandagina shifrlashni yoqishingiz mumkin.",
   "@noEncryptionForPublicRooms": {
     "type": "text",
     "placeholders": {}
   },
-  "noGoogleServicesWarning": "Похоже, у вас нет служб Google на вашем телефоне. Это хорошее решение для вашей конфиденциальности! Для получения push-уведомлений во FluffyChat мы рекомендуем использовать https://microg.org/ или https://unifiedpush.org/.",
+  "noGoogleServicesWarning": "Telefoningizda Google xizmatlari yoʻq shekilli. Bu maxfiyligingiz uchun yaxshi yechim! FluffyChat ilovasida push-bildirishnomalarni olish uchun https://microg.org/ yoki https://unifiedpush.org/dan foydalanishni tavsiya qilamiz.",
   "@noGoogleServicesWarning": {
     "type": "text",
     "placeholders": {}
   },
-  "noMatrixServer": "{server1} не является matrix-сервером, использовать {server2} вместо него?",
+  "noMatrixServer": "{server1} matrix serveri emas, uning oʻrniga {server2} ishlatilsinmi?",
   "@noMatrixServer": {
     "type": "text",
     "placeholders": {
@@ -1187,49 +1187,49 @@
       "server2": {}
     }
   },
-  "none": "Нет",
+  "none": "Yoʻq",
   "@none": {
     "type": "text",
     "placeholders": {}
   },
-  "noPasswordRecoveryDescription": "Вы ещё не добавили способ восстановления пароля.",
+  "noPasswordRecoveryDescription": "Hali parolni tiklash usulini kiritmadingiz",
   "@noPasswordRecoveryDescription": {
     "type": "text",
     "placeholders": {}
   },
-  "noPermission": "Нет прав доступа",
+  "noPermission": "Kirish huquqi yoʻq",
   "@noPermission": {
     "type": "text",
     "placeholders": {}
   },
-  "noRoomsFound": "Комнаты не найдены…",
+  "noRoomsFound": "Hech qanday xona topilmadi...",
   "@noRoomsFound": {
     "type": "text",
     "placeholders": {}
   },
-  "notifications": "Уведомления",
+  "notifications": "Bildirishnomalar",
   "@notifications": {
     "type": "text",
     "placeholders": {}
   },
-  "numUsersTyping": "{count} пользователей печатают",
+  "numUsersTyping": "{count} ta foydalanuvchi chop etmoqda",
   "@numUsersTyping": {
     "type": "text",
     "placeholders": {
       "count": {}
     }
   },
-  "obtainingLocation": "Получение местоположения…",
+  "obtainingLocation": "Joylashuv aniqlanmoqda...",
   "@obtainingLocation": {
     "type": "text",
     "placeholders": {}
   },
-  "offensive": "Оскорбительный",
+  "offensive": "Haqoratomuz",
   "@offensive": {
     "type": "text",
     "placeholders": {}
   },
-  "offline": "Не в сети",
+  "offline": "Oflayn",
   "@offline": {
     "type": "text",
     "placeholders": {}
@@ -1239,302 +1239,302 @@
     "type": "text",
     "placeholders": {}
   },
-  "online": "В сети",
+  "online": "Onlayn",
   "@online": {
     "type": "text",
     "placeholders": {}
   },
-  "onlineKeyBackupEnabled": "Резервное копирование ключей на сервере включено",
+  "onlineKeyBackupEnabled": "Serverda kalitlarni zaxiralash yoqildi",
   "@onlineKeyBackupEnabled": {
     "type": "text",
     "placeholders": {}
   },
-  "oopsPushError": "Ой! К сожалению, при настройке push-уведомлений произошла ошибка.",
+  "oopsPushError": "Voy! Push-bildirishnomalarni sozlashda xatolik yuz berdi.",
   "@oopsPushError": {
     "type": "text",
     "placeholders": {}
   },
-  "oopsSomethingWentWrong": "Ой! Что-то пошло не так…",
+  "oopsSomethingWentWrong": "Voy! Nimadir xato ketdi...",
   "@oopsSomethingWentWrong": {
     "type": "text",
     "placeholders": {}
   },
-  "openAppToReadMessages": "Открыть приложение для чтения сообщений",
+  "openAppToReadMessages": "Xabarlarni oʻqish uchun ilovani ochish",
   "@openAppToReadMessages": {
     "type": "text",
     "placeholders": {}
   },
-  "openCamera": "Открыть камеру",
+  "openCamera": "Kamerani ochish",
   "@openCamera": {
     "type": "text",
     "placeholders": {}
   },
-  "openInMaps": "Открыть на картах",
+  "openInMaps": "Xaritada ochish",
   "@openInMaps": {
     "type": "text",
     "placeholders": {}
   },
-  "optionalGroupName": "(Необязательно) Название чата",
+  "optionalGroupName": "(ixtiyoriy) Chat nomi",
   "@optionalGroupName": {
     "type": "text",
     "placeholders": {}
   },
-  "or": "Или",
+  "or": "Yoki",
   "@or": {
     "type": "text",
     "placeholders": {}
   },
-  "participant": "Участник",
+  "participant": "A’zo",
   "@participant": {
     "type": "text",
     "placeholders": {}
   },
-  "passphraseOrKey": "пароль или ключ восстановления",
+  "passphraseOrKey": "qayta tiklash paroli yoki kaliti",
   "@passphraseOrKey": {
     "type": "text",
     "placeholders": {}
   },
-  "password": "Пароль",
+  "password": "Parol",
   "@password": {
     "type": "text",
     "placeholders": {}
   },
-  "passwordForgotten": "Забыли пароль",
+  "passwordForgotten": "Parolni unutdingiz",
   "@passwordForgotten": {
     "type": "text",
     "placeholders": {}
   },
-  "passwordHasBeenChanged": "Пароль был изменён",
+  "passwordHasBeenChanged": "Parol oʻzgartirildi",
   "@passwordHasBeenChanged": {
     "type": "text",
     "placeholders": {}
   },
-  "passwordRecovery": "Восстановление пароля",
+  "passwordRecovery": "Parolni tiklash",
   "@passwordRecovery": {
     "type": "text",
     "placeholders": {}
   },
-  "people": "Люди",
+  "people": "Insonlar",
   "@people": {
     "type": "text",
     "placeholders": {}
   },
-  "pickImage": "Выбрать изображение",
+  "pickImage": "Rasmni tanlash",
   "@pickImage": {
     "type": "text",
     "placeholders": {}
   },
-  "pin": "Закрепить",
+  "pin": "Qadash",
   "@pin": {
     "type": "text",
     "placeholders": {}
   },
-  "play": "Проиграть {fileName}",
+  "play": "{fileName}ʼni o‘ynatish",
   "@play": {
     "type": "text",
     "placeholders": {
       "fileName": {}
     }
   },
-  "pleaseChoose": "Пожалуйста, выберите",
+  "pleaseChoose": "Iltimos tanlang",
   "@pleaseChoose": {
     "type": "text",
     "placeholders": {}
   },
-  "pleaseChooseAPasscode": "Пожалуйста, выберите код доступа",
+  "pleaseChooseAPasscode": "Iltimos, kirish kodini tanlang",
   "@pleaseChooseAPasscode": {
     "type": "text",
     "placeholders": {}
   },
-  "pleaseChooseAUsername": "Пожалуйста, выберите имя пользователя",
+  "pleaseChooseAUsername": "Iltimos, foydalanuvchi nomini tanlang",
   "@pleaseChooseAUsername": {
     "type": "text",
     "placeholders": {}
   },
-  "pleaseClickOnLink": "Пожалуйста, нажмите на ссылку в письме, чтобы продолжить.",
+  "pleaseClickOnLink": "Davom etish uchun, iltimos, xatdagi havolani bosing.",
   "@pleaseClickOnLink": {
     "type": "text",
     "placeholders": {}
   },
-  "pleaseEnter4Digits": "Введите 4 цифры или оставьте поле пустым, чтобы отключить блокировку приложения.",
+  "pleaseEnter4Digits": "Ilova qulfini faolsizlantirish uchun 4 ta raqam kiriting yoki maydonni bo‘sh qoldiring.",
   "@pleaseEnter4Digits": {
     "type": "text",
     "placeholders": {}
   },
-  "pleaseEnterAMatrixIdentifier": "Пожалуйста, введите Matrix ID.",
+  "pleaseEnterAMatrixIdentifier": "Iltimos, Matrix ID’ni kiriting.",
   "@pleaseEnterAMatrixIdentifier": {
     "type": "text",
     "placeholders": {}
   },
-  "pleaseEnterYourPassword": "Пожалуйста, введите ваш пароль",
+  "pleaseEnterYourPassword": "Iltimos, parolingizni kiriting",
   "@pleaseEnterYourPassword": {
     "type": "text",
     "placeholders": {}
   },
-  "pleaseEnterYourPin": "Пожалуйста, введите свой пин-код",
+  "pleaseEnterYourPin": "Iltimos, PIN-kodingizni kiriting",
   "@pleaseEnterYourPin": {
     "type": "text",
     "placeholders": {}
   },
-  "pleaseEnterYourUsername": "Пожалуйста, введите имя пользователя",
+  "pleaseEnterYourUsername": "Iltimos, foydalanuvchi nomini kiriting",
   "@pleaseEnterYourUsername": {
     "type": "text",
     "placeholders": {}
   },
-  "pleaseFollowInstructionsOnWeb": "Следуйте инструкциям на сайте и нажмите «Далее».",
+  "pleaseFollowInstructionsOnWeb": "Saytdagi ko‘rsatmalarga rioya qiling va \"Keyingi\" tugmasini bosing.",
   "@pleaseFollowInstructionsOnWeb": {
     "type": "text",
     "placeholders": {}
   },
-  "privacy": "Конфиденциальность",
+  "privacy": "Maxfiylik",
   "@privacy": {
     "type": "text",
     "placeholders": {}
   },
-  "publicRooms": "Публичные комнаты",
+  "publicRooms": "Jamoat xonalari",
   "@publicRooms": {
     "type": "text",
     "placeholders": {}
   },
-  "pushRules": "Правила push",
+  "pushRules": "Push qoidalari",
   "@pushRules": {
     "type": "text",
     "placeholders": {}
   },
-  "reason": "Причина",
+  "reason": "Sabab",
   "@reason": {
     "type": "text",
     "placeholders": {}
   },
-  "recording": "Запись",
+  "recording": "Yozib olish",
   "@recording": {
     "type": "text",
     "placeholders": {}
   },
-  "redactedAnEvent": "{username} удалил сообщение",
+  "redactedAnEvent": "{username} xabarni oʻchirib tashladi",
   "@redactedAnEvent": {
     "type": "text",
     "placeholders": {
       "username": {}
     }
   },
-  "redactMessage": "Отредактировать сообщение",
+  "redactMessage": "Xabarni tahrirlash",
   "@redactMessage": {
     "type": "text",
     "placeholders": {}
   },
-  "register": "Зарегистрироваться",
+  "register": "Ro‘yxatdan o‘tmoq",
   "@register": {
     "type": "text",
     "placeholders": {}
   },
-  "reject": "Отклонить",
+  "reject": "Rad etish",
   "@reject": {
     "type": "text",
     "placeholders": {}
   },
-  "rejectedTheInvitation": "{username} отклонил(а) приглашение",
+  "rejectedTheInvitation": "{username} taklifni rad etdi",
   "@rejectedTheInvitation": {
     "type": "text",
     "placeholders": {
       "username": {}
     }
   },
-  "rejoin": "Зайти повторно",
+  "rejoin": "Qayta kirish",
   "@rejoin": {
     "type": "text",
     "placeholders": {}
   },
-  "remove": "Удалить",
+  "remove": "Oʻchirish",
   "@remove": {
     "type": "text",
     "placeholders": {}
   },
-  "removeAllOtherDevices": "Удалить остальные устройства",
+  "removeAllOtherDevices": "Boshqa qurilmalarni olib tashlash",
   "@removeAllOtherDevices": {
     "type": "text",
     "placeholders": {}
   },
-  "removedBy": "Удалено пользователем {username}",
+  "removedBy": "{username} tomonidan oʻchirildi",
   "@removedBy": {
     "type": "text",
     "placeholders": {
       "username": {}
     }
   },
-  "removeDevice": "Удалить устройство",
+  "removeDevice": "Qurilmani olib tashlash",
   "@removeDevice": {
     "type": "text",
     "placeholders": {}
   },
-  "unbanFromChat": "Разблокировать в чате",
+  "unbanFromChat": "Chatda blokdan chiqarish",
   "@unbanFromChat": {
     "type": "text",
     "placeholders": {}
   },
-  "removeYourAvatar": "Удалить аватар",
+  "removeYourAvatar": "Avatarni olib tashlash",
   "@removeYourAvatar": {
     "type": "text",
     "placeholders": {}
   },
-  "renderRichContent": "Показывать текст с форматированием",
+  "renderRichContent": "Formatlangan matnni koʻrsatish",
   "@renderRichContent": {
     "type": "text",
     "placeholders": {}
   },
-  "replaceRoomWithNewerVersion": "Заменить комнату более новой версией",
+  "replaceRoomWithNewerVersion": "Xonani yangiroq versiyasiga almashtirish",
   "@replaceRoomWithNewerVersion": {
     "type": "text",
     "placeholders": {}
   },
-  "reply": "Ответить",
+  "reply": "Javob bermoq",
   "@reply": {
     "type": "text",
     "placeholders": {}
   },
-  "reportMessage": "Пожаловаться на сообщение",
+  "reportMessage": "Xabar ustidan shikoyat qilish",
   "@reportMessage": {
     "type": "text",
     "placeholders": {}
   },
-  "requestPermission": "Запросить разрешение",
+  "requestPermission": "Ruxsat soʻrash",
   "@requestPermission": {
     "type": "text",
     "placeholders": {}
   },
-  "roomHasBeenUpgraded": "Комната обновлена",
+  "roomHasBeenUpgraded": "Xona yangilandi",
   "@roomHasBeenUpgraded": {
     "type": "text",
     "placeholders": {}
   },
-  "roomVersion": "Версия комнаты",
+  "roomVersion": "Xona versiyasi",
   "@roomVersion": {
     "type": "text",
     "placeholders": {}
   },
-  "saveFile": "Сохранить файл",
+  "saveFile": "Faylni saqlash",
   "@saveFile": {
     "type": "text",
     "placeholders": {}
   },
-  "search": "Поиск",
+  "search": "Qidirish",
   "@search": {
     "type": "text",
     "placeholders": {}
   },
-  "security": "Безопасность",
+  "security": "Xavfsizlik",
   "@security": {
     "type": "text",
     "placeholders": {}
   },
-  "seenByUser": "Просмотрено пользователем {username}",
+  "seenByUser": "{username} tomonidan koʻrilgan",
   "@seenByUser": {
     "type": "text",
     "placeholders": {
       "username": {}
     }
   },
-  "seenByUserAndCountOthers": "{count, plural, other{Просмотрено пользователями {username} и {count} другими}}",
+  "seenByUserAndCountOthers": "{count, plural, other{{username} va boshqa {count} kishi tomonidan koʻrildi}}",
   "@seenByUserAndCountOthers": {
     "type": "text",
     "placeholders": {
@@ -1542,7 +1542,7 @@
       "count": {}
     }
   },
-  "seenByUserAndUser": "Просмотрено пользователями {username} и {username2}",
+  "seenByUserAndUser": "{username} va {username2} tomosha qilgan",
   "@seenByUserAndUser": {
     "type": "text",
     "placeholders": {
@@ -1550,227 +1550,227 @@
       "username2": {}
     }
   },
-  "send": "Отправить",
+  "send": "Yuborish",
   "@send": {
     "type": "text",
     "placeholders": {}
   },
-  "sendAMessage": "Отправить сообщение",
+  "sendAMessage": "Xabarni yuborish",
   "@sendAMessage": {
     "type": "text",
     "placeholders": {}
   },
-  "sendAsText": "Отправить как текст",
+  "sendAsText": "Matn shaklida yuborish",
   "@sendAsText": {
     "type": "text"
   },
-  "sendAudio": "Отправить аудио",
+  "sendAudio": "Audio yuborish",
   "@sendAudio": {
     "type": "text",
     "placeholders": {}
   },
-  "sendFile": "Отправить файл",
+  "sendFile": "Faylni yuborish",
   "@sendFile": {
     "type": "text",
     "placeholders": {}
   },
-  "sendImage": "Отправить изображение",
+  "sendImage": "Rasmni yuborish",
   "@sendImage": {
     "type": "text",
     "placeholders": {}
   },
-  "sendMessages": "Отправить сообщения",
+  "sendMessages": "Xabarlar yuborish",
   "@sendMessages": {
     "type": "text",
     "placeholders": {}
   },
-  "sendOriginal": "Отправить оригинал",
+  "sendOriginal": "Aslini yuborish",
   "@sendOriginal": {
     "type": "text",
     "placeholders": {}
   },
-  "sendSticker": "Отправить стикер",
+  "sendSticker": "Stiker yuborish",
   "@sendSticker": {
     "type": "text",
     "placeholders": {}
   },
-  "sendVideo": "Отправить видео",
+  "sendVideo": "Video yuborish",
   "@sendVideo": {
     "type": "text",
     "placeholders": {}
   },
-  "sentAFile": "📁 {username} отправил(а) файл",
+  "sentAFile": "📁 {username} fayl yubordi",
   "@sentAFile": {
     "type": "text",
     "placeholders": {
       "username": {}
     }
   },
-  "sentAnAudio": "🎤 {username} отправил(а) аудио",
+  "sentAnAudio": "🎤 {username} audio yubordi",
   "@sentAnAudio": {
     "type": "text",
     "placeholders": {
       "username": {}
     }
   },
-  "sentAPicture": "🖼️ {username} отправил(а) изображение",
+  "sentAPicture": "🖼️ {username} rasm yubordi",
   "@sentAPicture": {
     "type": "text",
     "placeholders": {
       "username": {}
     }
   },
-  "sentASticker": "😊 {username} отправил(а) стикер",
+  "sentASticker": "😊 {username} stiker yubordi",
   "@sentASticker": {
     "type": "text",
     "placeholders": {
       "username": {}
     }
   },
-  "sentAVideo": "🎥 {username} отправил(а) видео",
+  "sentAVideo": "🎥 {username} video yubordi",
   "@sentAVideo": {
     "type": "text",
     "placeholders": {
       "username": {}
     }
   },
-  "sentCallInformations": "{senderName} отправил(а) информацию о звонке",
+  "sentCallInformations": "{senderName} qoʻngʻiroq haqidagi maʼlumotni yubordi",
   "@sentCallInformations": {
     "type": "text",
     "placeholders": {
       "senderName": {}
     }
   },
-  "setAsCanonicalAlias": "Установить как основной псевдоним",
+  "setAsCanonicalAlias": "Asosiy taxallus sifatida oʻrnatish",
   "@setAsCanonicalAlias": {
     "type": "text",
     "placeholders": {}
   },
-  "setCustomEmotes": "Установить пользовательские эмодзи",
+  "setCustomEmotes": "Foydalanuvchi emojilarini oʻrnatish",
   "@setCustomEmotes": {
     "type": "text",
     "placeholders": {}
   },
-  "setGroupDescription": "Задать описание чата",
+  "setGroupDescription": "Chat tavsifini belgilash",
   "@setGroupDescription": {
     "type": "text",
     "placeholders": {}
   },
-  "setInvitationLink": "Установить ссылку для приглашения",
+  "setInvitationLink": "Taklif havolasini belgilash",
   "@setInvitationLink": {
     "type": "text",
     "placeholders": {}
   },
-  "setPermissionsLevel": "Установить уровень разрешений",
+  "setPermissionsLevel": "Ruxsatlar darajasini belgilash",
   "@setPermissionsLevel": {
     "type": "text",
     "placeholders": {}
   },
-  "setStatus": "Задать статус",
+  "setStatus": "Maqomini belgilash",
   "@setStatus": {
     "type": "text",
     "placeholders": {}
   },
-  "settings": "Настройки",
+  "settings": "Sozlamalar",
   "@settings": {
     "type": "text",
     "placeholders": {}
   },
-  "share": "Поделиться",
+  "share": "Ulashish",
   "@share": {
     "type": "text",
     "placeholders": {}
   },
-  "sharedTheLocation": "{username} поделился(ась) местоположением",
+  "sharedTheLocation": "{username} o‘z joylashuvini ulashdi",
   "@sharedTheLocation": {
     "type": "text",
     "placeholders": {
       "username": {}
     }
   },
-  "shareLocation": "Поделиться местоположением",
+  "shareLocation": "Joylashuvni ulashish",
   "@shareLocation": {
     "type": "text",
     "placeholders": {}
   },
-  "showPassword": "Показать пароль",
+  "showPassword": "Parolni koʻrsatish",
   "@showPassword": {
     "type": "text",
     "placeholders": {}
   },
-  "signUp": "Зарегистрироваться",
+  "signUp": "Roʻyxatdan oʻtmoq",
   "@signUp": {
     "type": "text",
     "placeholders": {}
   },
-  "singlesignon": "Единая точка входа",
+  "singlesignon": "Yagona kirish nuqtasi",
   "@singlesignon": {
     "type": "text",
     "placeholders": {}
   },
-  "skip": "Пропустить",
+  "skip": "Oʻtkazib yubormoq",
   "@skip": {
     "type": "text",
     "placeholders": {}
   },
-  "sourceCode": "Исходный код",
+  "sourceCode": "Manba kodi",
   "@sourceCode": {
     "type": "text",
     "placeholders": {}
   },
-  "spaceIsPublic": "Публичное пространство",
+  "spaceIsPublic": "Ommaviy maydon",
   "@spaceIsPublic": {
     "type": "text",
     "placeholders": {}
   },
-  "spaceName": "Название пространства",
+  "spaceName": "Maydon nomi",
   "@spaceName": {
     "type": "text",
     "placeholders": {}
   },
-  "startedACall": "{senderName} начал(а) звонок",
+  "startedACall": "{senderName} chaqiruv boshladi",
   "@startedACall": {
     "type": "text",
     "placeholders": {
       "senderName": {}
     }
   },
-  "status": "Статус",
+  "status": "Status",
   "@status": {
     "type": "text",
     "placeholders": {}
   },
-  "statusExampleMessage": "Как у вас сегодня дела?",
+  "statusExampleMessage": "Bugun ahvolingiz qanday?",
   "@statusExampleMessage": {
     "type": "text",
     "placeholders": {}
   },
-  "submit": "Отправить",
+  "submit": "Yuborish",
   "@submit": {
     "type": "text",
     "placeholders": {}
   },
-  "synchronizingPleaseWait": "Синхронизация… Пожалуйста, подождите.",
+  "synchronizingPleaseWait": "Sinxronlashtirilmoqda... Iltimos, kutib turing.",
   "@synchronizingPleaseWait": {
     "type": "text",
     "placeholders": {}
   },
-  "systemTheme": "Системная",
+  "systemTheme": "Tizimli",
   "@systemTheme": {
     "type": "text",
     "placeholders": {}
   },
-  "theyDontMatch": "Они не совпадают",
+  "theyDontMatch": "Ular mos kelmaydi",
   "@theyDontMatch": {
     "type": "text",
     "placeholders": {}
   },
-  "theyMatch": "Они совпадают",
+  "theyMatch": "Ular mos keladi",
   "@theyMatch": {
     "type": "text",
     "placeholders": {}
   },
-  "thisRoomHasBeenArchived": "Эта комната была заархивирована.",
+  "thisRoomHasBeenArchived": "Bu xona arxivlangan.",
   "@thisRoomHasBeenArchived": {
     "type": "text",
     "placeholders": {}
@@ -1781,42 +1781,42 @@
     "type": "text",
     "placeholders": {}
   },
-  "toggleFavorite": "Переключить избранное",
+  "toggleFavorite": "Sevimlilarga oʻtish",
   "@toggleFavorite": {
     "type": "text",
     "placeholders": {}
   },
-  "toggleMuted": "Переключить без звука",
+  "toggleMuted": "Ovozsiz almashtirish",
   "@toggleMuted": {
     "type": "text",
     "placeholders": {}
   },
-  "toggleUnread": "Отметить как прочитанное/непрочитанное",
+  "toggleUnread": "Oʻqilgan/oʻqilmagan deb belgilash",
   "@toggleUnread": {
     "type": "text",
     "placeholders": {}
   },
-  "tooManyRequestsWarning": "Слишком много запросов. Пожалуйста, повторите попытку позже!",
+  "tooManyRequestsWarning": "Talablar juda koʻp. Keyinroq qayta urining!",
   "@tooManyRequestsWarning": {
     "type": "text",
     "placeholders": {}
   },
-  "transferFromAnotherDevice": "Перенос с другого устройства",
+  "transferFromAnotherDevice": "Boshqa qurilmadan koʻchirish",
   "@transferFromAnotherDevice": {
     "type": "text",
     "placeholders": {}
   },
-  "tryToSendAgain": "Попробуйте отправить ещё раз",
+  "tryToSendAgain": "Qayta yuborib koʻring",
   "@tryToSendAgain": {
     "type": "text",
     "placeholders": {}
   },
-  "unavailable": "Недоступен",
+  "unavailable": "Mavjud emas",
   "@unavailable": {
     "type": "text",
     "placeholders": {}
   },
-  "unbannedUser": "{username} разблокировал(а) {targetName}",
+  "unbannedUser": "{username} {targetName}ni blokdan chiqardi",
   "@unbannedUser": {
     "type": "text",
     "placeholders": {
@@ -1824,46 +1824,46 @@
       "targetName": {}
     }
   },
-  "unblockDevice": "Разблокировать устройство",
+  "unblockDevice": "Qurilma qulfini ochish",
   "@unblockDevice": {
     "type": "text",
     "placeholders": {}
   },
-  "unknownDevice": "Неизвестное устройство",
+  "unknownDevice": "Notanish qurilma",
   "@unknownDevice": {
     "type": "text",
     "placeholders": {}
   },
-  "unknownEncryptionAlgorithm": "Неизвестный алгоритм шифрования",
+  "unknownEncryptionAlgorithm": "Nomaʼlum shifrlash algoritmi",
   "@unknownEncryptionAlgorithm": {
     "type": "text",
     "placeholders": {}
   },
-  "unknownEvent": "Неизвестное событие '{type}'",
+  "unknownEvent": "Nomaʼlum ’{type}’ hodisasi",
   "@unknownEvent": {
     "type": "text",
     "placeholders": {
       "type": {}
     }
   },
-  "unmuteChat": "Включить уведомления",
+  "unmuteChat": "Bildirishnomalarni yoqish",
   "@unmuteChat": {
     "type": "text",
     "placeholders": {}
   },
-  "unpin": "Открепить",
+  "unpin": "Qadashdan olish",
   "@unpin": {
     "type": "text",
     "placeholders": {}
   },
-  "unreadChats": "{unreadCount, plural, other{{unreadCount} непрочитанных чата(ов)}}",
+  "unreadChats": "{unreadCount, plural, other{{unreadCount} ta oʻqilmagan chatlar}}",
   "@unreadChats": {
     "type": "text",
     "placeholders": {
       "unreadCount": {}
     }
   },
-  "userAndOthersAreTyping": "{username} и {count} других участников печатают",
+  "userAndOthersAreTyping": "{username} va yana {count} kishi yozmoqda",
   "@userAndOthersAreTyping": {
     "type": "text",
     "placeholders": {
@@ -1871,7 +1871,7 @@
       "count": {}
     }
   },
-  "userAndUserAreTyping": "{username} и {username2} печатают",
+  "userAndUserAreTyping": "{username} va {username2} yozmoqda",
   "@userAndUserAreTyping": {
     "type": "text",
     "placeholders": {
@@ -1879,26 +1879,26 @@
       "username2": {}
     }
   },
-  "userIsTyping": "{username} печатает",
+  "userIsTyping": "{username} yozmoqda",
   "@userIsTyping": {
     "type": "text",
     "placeholders": {
       "username": {}
     }
   },
-  "userLeftTheChat": "{username} покинул(а) чат",
+  "userLeftTheChat": "{username} chatni tark etdi",
   "@userLeftTheChat": {
     "type": "text",
     "placeholders": {
       "username": {}
     }
   },
-  "username": "Имя пользователя",
+  "username": "Foydalanuvchi nomi",
   "@username": {
     "type": "text",
     "placeholders": {}
   },
-  "userSentUnknownEvent": "{username} отправил(а) событие типа \"{type}\"",
+  "userSentUnknownEvent": "{username} \"{type}\" turdagi tadbirni yubordi",
   "@userSentUnknownEvent": {
     "type": "text",
     "placeholders": {
@@ -1906,137 +1906,137 @@
       "type": {}
     }
   },
-  "verified": "Проверено",
+  "verified": "Tasdiqlangan",
   "@verified": {
     "type": "text",
     "placeholders": {}
   },
-  "verify": "Проверить",
+  "verify": "Tasdiqlash",
   "@verify": {
     "type": "text",
     "placeholders": {}
   },
-  "verifyStart": "Начать проверку",
+  "verifyStart": "Tasdiqlashni boshlash",
   "@verifyStart": {
     "type": "text",
     "placeholders": {}
   },
-  "verifySuccess": "Вы успешно проверены!",
+  "verifySuccess": "Siz muvaffaqiyatli tasdiqlandingiz!",
   "@verifySuccess": {
     "type": "text",
     "placeholders": {}
   },
-  "verifyTitle": "Проверка другой учётной записи",
+  "verifyTitle": "Boshqa hisob tasdiqlanmoqda",
   "@verifyTitle": {
     "type": "text",
     "placeholders": {}
   },
-  "videoCall": "Видеозвонок",
+  "videoCall": "Video qoʻngʻiroq",
   "@videoCall": {
     "type": "text",
     "placeholders": {}
   },
-  "visibilityOfTheChatHistory": "Видимость истории чата",
+  "visibilityOfTheChatHistory": "Chat tarixining ko‘rinishi",
   "@visibilityOfTheChatHistory": {
     "type": "text",
     "placeholders": {}
   },
-  "visibleForAllParticipants": "Видима для всех участников",
+  "visibleForAllParticipants": "Barcha ishtirokchilarga koʻrinadi",
   "@visibleForAllParticipants": {
     "type": "text",
     "placeholders": {}
   },
-  "visibleForEveryone": "Видима для всех",
+  "visibleForEveryone": "Barchaga koʻrinadi",
   "@visibleForEveryone": {
     "type": "text",
     "placeholders": {}
   },
-  "voiceMessage": "Отправить голосовое сообщение",
+  "voiceMessage": "Ovozli xabar yuborish",
   "@voiceMessage": {
     "type": "text",
     "placeholders": {}
   },
-  "waitingPartnerAcceptRequest": "Ждем, когда партнер примет запроc…",
+  "waitingPartnerAcceptRequest": "Hamkor soʻrovni qabul qilishini kutmoqdamiz...",
   "@waitingPartnerAcceptRequest": {
     "type": "text",
     "placeholders": {}
   },
-  "waitingPartnerEmoji": "Ждем, когда партнер примет эмодзи…",
+  "waitingPartnerEmoji": "Hamkorimiz emojini qabul qilishini kutmoqdamiz...",
   "@waitingPartnerEmoji": {
     "type": "text",
     "placeholders": {}
   },
-  "waitingPartnerNumbers": "Ждем, когда партнер примет числа…",
+  "waitingPartnerNumbers": "Hamkor raqamlarni qabul qilishini kutmoqdamiz...",
   "@waitingPartnerNumbers": {
     "type": "text",
     "placeholders": {}
   },
-  "wallpaper": "Обои",
+  "wallpaper": "Fon rasmi",
   "@wallpaper": {
     "type": "text",
     "placeholders": {}
   },
-  "warning": "Предупреждение!",
+  "warning": "Ogohlantirish!",
   "@warning": {
     "type": "text",
     "placeholders": {}
   },
-  "weSentYouAnEmail": "Мы отправили вам электронное письмо",
+  "weSentYouAnEmail": "Sizga xat yubordik",
   "@weSentYouAnEmail": {
     "type": "text",
     "placeholders": {}
   },
-  "whoCanPerformWhichAction": "Кто и какое действие может выполнять",
+  "whoCanPerformWhichAction": "Kim va qanday amalni bajarishi mumkin",
   "@whoCanPerformWhichAction": {
     "type": "text",
     "placeholders": {}
   },
-  "whoIsAllowedToJoinThisGroup": "Кому разрешено вступать в этот чат",
+  "whoIsAllowedToJoinThisGroup": "Kimga bu chatga kirish ruxsati berilgan",
   "@whoIsAllowedToJoinThisGroup": {
     "type": "text",
     "placeholders": {}
   },
-  "whyDoYouWantToReportThis": "Почему вы хотите сообщить об этом?",
+  "whyDoYouWantToReportThis": "Nima uchun bu haqda xabar bermoqchisiz?",
   "@whyDoYouWantToReportThis": {
     "type": "text",
     "placeholders": {}
   },
-  "wipeChatBackup": "Удалить резервную копию чата, чтобы создать новый ключ восстановления?",
+  "wipeChatBackup": "Yangi tiklash kaliti yaratish uchun chat zaxirasi o‘chirilsinmi?",
   "@wipeChatBackup": {
     "type": "text",
     "placeholders": {}
   },
-  "withTheseAddressesRecoveryDescription": "По этим адресам вы можете восстановить свой пароль.",
+  "withTheseAddressesRecoveryDescription": "Ushbu manzillar orqali parolingizni tiklashingiz mumkin.",
   "@withTheseAddressesRecoveryDescription": {
     "type": "text",
     "placeholders": {}
   },
-  "writeAMessage": "Напишите сообщение…",
+  "writeAMessage": "Xabar yozing...",
   "@writeAMessage": {
     "type": "text",
     "placeholders": {}
   },
-  "yes": "Да",
+  "yes": "Ha",
   "@yes": {
     "type": "text",
     "placeholders": {}
   },
-  "you": "Вы",
+  "you": "Siz",
   "@you": {
     "type": "text",
     "placeholders": {}
   },
-  "youAreInvitedToThisChat": "Вы приглашены в этот чат",
+  "youAreInvitedToThisChat": "Siz ushbu suhbatga taklif etildingiz",
   "@youAreInvitedToThisChat": {
     "type": "text",
     "placeholders": {}
   },
-  "youAreNoLongerParticipatingInThisChat": "Вы больше не состоите в этом чате",
+  "youAreNoLongerParticipatingInThisChat": "Siz endi bu chatda ishtirok etmayapsiz",
   "@youAreNoLongerParticipatingInThisChat": {
     "type": "text",
     "placeholders": {}
   },
-  "youCannotInviteYourself": "Вы не можете пригласить себя",
+  "youCannotInviteYourself": "Siz o‘zingizni taklif qila olmaysiz",
   "@youCannotInviteYourself": {
     "type": "text",
     "placeholders": {}
