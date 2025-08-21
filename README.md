@@ -1,10 +1,7 @@
 # Twake Chat Client
-[![Contributors](https://img.shields.io/github/contributors/linagora/twake-on-matrix?label=Contributors
-)](
-  https://github.com/linagora/twake-on-matrix/graphs/contributors
-)
-[![Issues](https://img.shields.io/github/issues/linagora/twake-on-matrix?label=Issues
-)](https://github.com/linagora/twake-on-matrix/issues)
+
+[![Contributors](https://img.shields.io/github/contributors/linagora/twake-on-matrix?label=Contributors)](https://github.com/linagora/twake-on-matrix/graphs/contributors)
+[![Issues](https://img.shields.io/github/issues/linagora/twake-on-matrix?label=Issues)](https://github.com/linagora/twake-on-matrix/issues)
 [![Documentation](https://img.shields.io/badge/Documentation-green.svg)](docs)
 [![Android application](https://img.shields.io/badge/App-Android-blue.svg)](https://play.google.com/store/apps/dev?id=8845244706987756601)
 [![Ios application](https://img.shields.io/badge/App-iOS-red.svg)](https://apps.apple.com/gr/developer/linagora/id1110867042)
@@ -14,8 +11,6 @@
   <a href="https://github.com/linagora/twake-on-matrix">
      <img src="https://github.com/linagora/twake-on-matrix/assets/146178981/3e395e0e-5796-4986-97ab-814ae28745b2">
   </a>
-
-
 
 <p align="center">
     <a href="https://twake-chat.com">Website</a>
@@ -59,6 +54,7 @@ Please make sure to run the following command at first, to verify your code befo
 ```bash
 bash scripts/config-pre-commit.sh
 ```
+
 ### Requirements
 
 - [ ] Flutter 3.24 (more recent versions are not yet supported)
@@ -71,7 +67,7 @@ flutter doctor -v
 
 #### Web
 
-If you only plan to work on the `web` target we recommend installing Google Chrome as it is the default supported target *(Flutter being developped by Google)*.
+If you only plan to work on the `web` target we recommend installing Google Chrome as it is the default supported target _(Flutter being developped by Google)_.
 
 It is also **required** to have a web ready version of libolm available in the `assets/js/package` folder. You can build a version using:
 
@@ -86,10 +82,11 @@ exit
 # back on your host
 sudo chown $(id -u):$(id -g) ./assets/js/package -Rv
 ```
+
 #### Android
 
-- [ ] An implementation of JDK 17 *(tested with openjdk-17.0.13+11)*
-- [ ] An implementation of JDK 8 *(tested with openjdk-8u432-b06)*
+- [ ] An implementation of JDK 17 _(tested with openjdk-17.0.13+11)_
+- [ ] An implementation of JDK 8 _(tested with openjdk-8u432-b06)_
 - [ ] (Optional) Android Studio
 - [ ] An Android SDK with:
   - [ ] Android build tools: 30.0.3
@@ -98,7 +95,7 @@ sudo chown $(id -u):$(id -g) ./assets/js/package -Rv
   - [ ] Android NDK: 23.1.7779620
   - [ ] Google APIs: enabled
 
-*Note: Gradle will try to install the JDK 8. If for any reasons the operation failed, try to install your own and use [this method](https://github.com/pm-McFly/twake-on-matrix/issues/1#issuecomment-2581428804) to tell Gradle where to find it.*
+_Note: Gradle will try to install the JDK 8. If for any reasons the operation failed, try to install your own and use [this method](https://github.com/pm-McFly/twake-on-matrix/issues/1#issuecomment-2581428804) to tell Gradle where to find it._
 
 #### Linux
 
@@ -108,13 +105,14 @@ sudo chown $(id -u):$(id -g) ./assets/js/package -Rv
 - [ ] Lib WebKit 2 GTK
 - [ ] Lib OLM
 
-*If needed, a complete list is available in the `flake.nix`.*
+_If needed, a complete list is available in the `flake.nix`._
 
 On Ubuntu, the following command should install all the required elements:
 
 ```bash
 sudo apt install libjsoncpp1 libsecret-1-dev libsecret-1-0 librhash0 libwebkit2gtk-4.0-dev libolm3
 ```
+
 ---
 
 In addition, the Linux build requires Rust. For macOS or Linux, execute the following command in a terminal emulator:
@@ -122,6 +120,7 @@ In addition, the Linux build requires Rust. For macOS or Linux, execute the foll
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
+
 For Windows, you can use the [Rust Installer](https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe).
 
 In case you have Rust already installed, make sure to update it to latest version:
@@ -220,6 +219,7 @@ Please use the helper script corresponding to your target in order to build:
   [docs](https://github.com/linagora/twake-on-matrix/blob/main/docs/configurations/config_web_app_for_public_platform.md)
 
 - Run the image using the following command:
+
 ```
 docker run -d -p <host port>:<host port> -e TWAKECHAT_LISTEN_PORT=<host port> --name <container name> -v <host path>:/usr/share/nginx/html/web/config.json linagora/twake-web:<tag>
 ```
@@ -246,6 +246,7 @@ docker run -d -p <host port>:<host port> -e TWAKECHAT_LISTEN_PORT=<host port> --
 ```
 
 - Run the image using the following command with my port is `6868`:
+
 ```
 docker run -d -p 6868:6868 -e TWAKECHAT_LISTEN_PORT=6868 --name twake-web -v /path/to/config.json:/usr/share/nginx/html/web/config.json linagora/twake-web:v2.6.5
 ```
@@ -254,21 +255,21 @@ docker run -d -p 6868:6868 -e TWAKECHAT_LISTEN_PORT=6868 --name twake-web -v /pa
 
 # Special thanks
 
-* <a href="https://github.com/krille-chan/fluffychat">FluffyChat</a> is the original repository of this project. A huge thanks to the upstream repository for their vital contributions, not only for this project but also for [Matrix SDK in Dart](https://github.com/famedly/matrix-dart-sdk)
+- <a href="https://github.com/krille-chan/fluffychat">FluffyChat</a> is the original repository of this project. A huge thanks to the upstream repository for their vital contributions, not only for this project but also for [Matrix SDK in Dart](https://github.com/famedly/matrix-dart-sdk)
 
-* <a href="https://github.com/fabiyamada">Fabiyamada</a> is a graphics designer from Brasil and has made the fluffychat logo and the banner. Big thanks for her great designs.
+- <a href="https://github.com/fabiyamada">Fabiyamada</a> is a graphics designer from Brasil and has made the fluffychat logo and the banner. Big thanks for her great designs.
 
-* <a href="https://github.com/advocatux">Advocatux</a> has made the Spanish translation with great love and care. He always stands by my side and supports my work with great commitment.
+- <a href="https://github.com/advocatux">Advocatux</a> has made the Spanish translation with great love and care. He always stands by my side and supports my work with great commitment.
 
-* Thanks to MTRNord and Sorunome for developing.
+- Thanks to MTRNord and Sorunome for developing.
 
-* Also thanks to all translators and testers! With your help, fluffychat is now available in more than 12 languages.
+- Also thanks to all translators and testers! With your help, fluffychat is now available in more than 12 languages.
 
-* <a href="https://github.com/googlefonts/noto-emoji/">Noto Emoji Font</a> for the awesome emojis.
+- <a href="https://github.com/googlefonts/noto-emoji/">Noto Emoji Font</a> for the awesome emojis.
 
-* <a href="https://github.com/madsrh/WoodenBeaver">WoodenBeaver</a> sound theme for the notification sound.
+- <a href="https://github.com/madsrh/WoodenBeaver">WoodenBeaver</a> sound theme for the notification sound.
 
-* The Matrix Foundation for making and maintaining the [emoji translations](https://github.com/matrix-org/matrix-doc/blob/main/data-definitions/sas-emoji.json) used for emoji verification, licensed Apache 2.0
+- The Matrix Foundation for making and maintaining the [emoji translations](https://github.com/matrix-org/matrix-doc/blob/main/data-definitions/sas-emoji.json) used for emoji verification, licensed Apache 2.0
 
 ## Using Rust Inside Flutter
 
@@ -291,7 +292,7 @@ flutter doctor
 You also need to have the CLI tool for Rinf ready.
 
 ```shell
-cargo install rinf
+cargo install rinf --version 7.3.1
 ```
 
 Messages sent between Dart and Rust are implemented using Protobuf.
@@ -311,4 +312,3 @@ flutter run
 
 For detailed instructions on writing Rust and Flutter together,
 please refer to Rinf's [documentation](https://rinf.cunarist.com).
-
