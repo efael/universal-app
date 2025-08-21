@@ -218,6 +218,8 @@ dependencies:
   pull_down_button: 0.10.2
   pretty_qr_code: 3.3.0
   byte_converter: 2.0.0
+  rinf: 7.3.1
+  protobuf: ^3.1.0
 
 dev_dependencies:
   build_runner: 2.4.12

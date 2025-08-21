@@ -16,8 +16,11 @@ import 'package:path_provider/path_provider.dart';
 import 'utils/background_push.dart';
 import 'widgets/twake_app.dart';
 import 'widgets/lock_screen.dart';
+import 'package:rinf/rinf.dart';
+import './messages/all.dart';
 
 void main() async {
+  await initializeRust(assignRustSignal);
   // Our background push shared isolate accesses flutter-internal things very early in the startup proccess
   // To make sure that the parts of flutter needed are started up already, we need to ensure that the
   // widget bindings are initialized already.
