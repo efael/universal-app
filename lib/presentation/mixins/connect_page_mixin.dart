@@ -1,4 +1,5 @@
 import 'package:fluffychat/config/app_config.dart';
+import 'package:fluffychat/messages/all.dart';
 import 'package:fluffychat/pages/connect/connect_page.dart';
 import 'package:fluffychat/pages/connect/sso_login_state.dart';
 import 'package:fluffychat/utils/dialog/twake_dialog.dart';
@@ -252,19 +253,35 @@ mixin ConnectPageMixin {
     required String uri,
   }) async {
     try {
-      final token = Uri.parse(uri).queryParameters['loginToken'];
+      final token = Uri.parse(uri).queryParameters['code'];
       Logs().d(
         "ConnectPageMixin: handleTokenFromRegistrationSite: token: $token",
       );
-      if (token == null || token.isEmpty == true) {
-        return SsoLoginState.tokenEmpty;
+      // if (token == null || token.isEmpty == true) {
+      //   return SsoLoginState.tokenEmpty;
+      // }
+
+      JustFinishSso(
+        id: "1",
+        nameOrHomeserverUrl: AppConfig.oidcUrls.nameOrHomeserverUrl,
+        callbackUrl: uri,
+      ).sendSignalToRust();
+      final signal = await JustSsoTokens.rustSignalStream.first;
+      if (signal.message.error != "") {
+        Logs().e(
+          "ConnectPageMixin:: handleTokenFromRegistrationSite(): error: ${signal.message.error}",
+        );
+        return SsoLoginState.error;
       }
+
       matrix.loginType = LoginType.mLoginToken;
       await TwakeDialog.showStreamDialogFullScreen(
-        future: () => matrix.getLoginClient().login(
-              LoginType.mLoginToken,
-              token: token,
-              initialDeviceDisplayName: PlatformInfos.clientName,
+        future: () => matrix.getLoginClient().init(
+              newToken: signal.message.accessToken,
+              newUserID: signal.message.userId,
+              newDeviceID: signal.message.deviceId,
+              newHomeserver: Uri.parse(AppConfig.homeserver),
+              newDeviceName: PlatformInfos.clientName,
             ),
       );
       return SsoLoginState.success;

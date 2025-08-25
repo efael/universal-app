@@ -126,7 +126,7 @@ class MatrixState extends State<Matrix>
   }
 
   // TODO: 28Dec2023 Disable until support voip
-  bool get webrtcIsSupported => false;
+  bool get webrtcIsSupported => true;
 
   // VoipPlugin? voipPlugin;
 

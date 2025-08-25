@@ -25,7 +25,7 @@ mixin ReceiveSharingIntentMixin<T extends StatefulWidget> on State<T> {
   StreamSubscription? intentUriStreamSubscription;
 
   bool _intentOpenApp(String text) {
-    return text.contains('twake.chat://openApp');
+    return text.contains('${AppConfig.appOpenUrlScheme}://openApp');
   }
 
   Future<void> _processIncomingSharedFiles(List<SharedMediaFile> files) async {

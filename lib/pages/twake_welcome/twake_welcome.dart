@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:fluffychat/config/app_config.dart';
 import 'package:equatable/equatable.dart';
+import 'package:fluffychat/messages/all.dart';
 import 'package:fluffychat/presentation/mixins/connect_page_mixin.dart';
 import 'package:fluffychat/pages/twake_welcome/twake_welcome_view.dart';
 import 'package:fluffychat/utils/client_manager.dart';
@@ -43,6 +44,8 @@ class TwakeWelcome extends StatefulWidget {
 }
 
 class TwakeWelcomeController extends State<TwakeWelcome> with ConnectPageMixin {
+  bool loading = false;
+
   void goToHomeserverPicker() {
     if (widget.arg != null && widget.arg?.isAddAnotherAccount == true) {
       context.push('/rooms/addaccount/homeserverpicker');
@@ -65,9 +68,50 @@ class TwakeWelcomeController extends State<TwakeWelcome> with ConnectPageMixin {
 
   MatrixState get matrix => Matrix.of(context);
 
-  void onClickSignIn() {
-    Logs().d("TwakeIdController::onClickSignIn: Login Url - $loginUrl");
-    _redirectRegistrationUrl(loginUrl);
+  void onClickAuthorize() {
+    if (loading) {
+      return;
+    }
+
+    Logs().d(
+      "TwakeIdController::onClickAuthorize: Waiting for auth url",
+    );
+
+    setState(() {
+      loading = true;
+    });
+
+    JustOidcUrls.rustSignalStream.first
+        // .timeout(
+        //   const Duration(seconds: 10),
+        //   onTimeout: () {
+        //     Logs().d("TwakeIdController::onClickAuthorize: Timeout");
+        //     return Future.error({});
+        //   },
+        // )
+        .then((signal) {
+      final loginUrl = signal.message.url;
+
+      if (loginUrl == "") {
+        return Future.error(signal.message.error);
+      }
+
+      Logs().d(
+        "TwakeIdController::onClickAuthorize: Authorize Url - $loginUrl",
+      );
+
+      _redirectRegistrationUrl(loginUrl);
+    }).catchError((err) {
+      Logs().e(
+        "TwakeIdController::onClickAuthorize: $err",
+      );
+
+      setState(() {
+        loading = false;
+      });
+    });
+
+    AppConfig.oidcUrls.sendSignalToRust();
   }
 
   void _redirectRegistrationUrl(String url) async {
@@ -96,14 +140,11 @@ class TwakeWelcomeController extends State<TwakeWelcome> with ConnectPageMixin {
     } catch (e) {
       Logs().e("TwakeIdController::_redirectRegistrationUrl: $e");
       TwakeDialog.hideLoadingDialog(context);
+    } finally {
+      setState(() {
+        loading = false;
+      });
     }
-  }
-
-  void onClickCreateTwakeId() {
-    Logs().d(
-      "TwakeIdController::onClickCreateTwakeId: Signup Url - $signupUrl",
-    );
-    _redirectRegistrationUrl(signupUrl);
   }
 
   Future<bool> _homeserverExisted() async {

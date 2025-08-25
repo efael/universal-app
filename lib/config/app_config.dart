@@ -3,6 +3,7 @@ import 'dart:io';
 
 import 'package:fluffychat/config/config_saas/config_saas.dart';
 import 'package:fluffychat/di/global/get_it_initializer.dart';
+import 'package:fluffychat/messages/all.dart';
 import 'package:fluffychat/utils/responsive/responsive_utils.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -19,13 +20,13 @@ abstract class AppConfig {
 
   static bool get hasReachedMaxRetries => retryCompleterCount == 3;
 
-  static String _applicationName = 'Twake Chat';
+  static String _applicationName = 'Efael';
 
   static String get applicationName => _applicationName;
   static String? _applicationWelcomeMessage;
 
   static String? get applicationWelcomeMessage => _applicationWelcomeMessage;
-  static String _defaultHomeserver = 'matrix.linagora.com';
+  static String _defaultHomeserver = 'efael.uz';
 
   static String get defaultHomeserver => _defaultHomeserver;
   static double bubbleSizeFactor = 1;
@@ -89,7 +90,19 @@ abstract class AppConfig {
       'https://gitlab.com/famedly/fluffychat/-/wikis/Push-Notifications-without-Google-Services';
   static const String encryptionTutorial =
       'https://gitlab.com/famedly/fluffychat/-/wikis/How-to-use-end-to-end-encryption-in-FluffyChat';
-  static const String appOpenUrlScheme = 'twake.chat';
+  static const String appOpenUrlScheme = 'uz.efael.app';
+
+  static JustGetOidcUrls oidcUrls = JustGetOidcUrls(
+    id: "1",
+    nameOrHomeserverUrl: "efael.uz",
+    clientName: "Efael",
+    redirectUri: "$appOpenUrlScheme:/",
+    // redirectUri: "https://efael.uz/redirect",
+    clientUri: "https://efael.uz",
+    logoUri: "https://efael.uz",
+    tosUri: "https://efael.uz",
+    policyUri: "https://efael.uz",
+  );
   static String _webBaseUrl = 'https://fluffychat.im/web';
 
   static String get webBaseUrl => _webBaseUrl;

@@ -22,6 +22,7 @@ analyzer:
     - lib/src/bindings/**/*.dart
     - "**.pbjson.dart"
     - "**.pb.dart"
+    - "**.pb*.dart"
     - "**.g.dart"
 
 dart_code_metrics:

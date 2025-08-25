@@ -10,7 +10,7 @@ dependencies:
   ### Dependencies from git ###
   matrix:
     git:
-      url: git@github.com:linagora/matrix-dart-sdk.git
+      url: git@github.com:efael/matrix-dart-sdk.git
       ref: twake-supported-0.22.6
 
   receive_sharing_intent:
@@ -321,7 +321,7 @@ dependency_overrides:
   # TODO: Remove this part when update matrix_homeserver_recommendations to same version as matrix_dart_sdk
   matrix_api_lite:
     git:
-      url: https://github.com/linagora/dart_matrix_api_lite.git
+      url: https://github.com/efael/dart_matrix_api_lite.git
       ref: main
 
   # Fixes a compile error when comforming UIApplication to Launcher in iOS 18.

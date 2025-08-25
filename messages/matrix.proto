@@ -1,0 +1,49 @@
+syntax = "proto3";
+package matrix;
+
+// [DART-SIGNAL]
+message CreateClient { string nameOrHomeserverUrl = 1; }
+
+// [RUST-SIGNAL]
+message ClientCreated {
+  string id = 1;
+  bool supportsOidcLogin = 2;
+  bool supportsPasswordLogin = 3;
+  string url = 4;
+}
+
+// [DART-SIGNAL]
+message JustGetOidcUrls {
+  string id = 1;
+  string nameOrHomeserverUrl = 2; 
+  string clientName = 3;
+  string redirectUri = 4;
+  string clientUri = 5;
+  string logoUri = 6;
+  string tosUri = 7;
+  string policyUri = 8;
+}
+
+// [RUST-SIGNAL]
+message JustOidcUrls {
+  string id = 1;
+  string url = 2;
+  string error = 3;
+}
+
+// [DART-SIGNAL]
+message JustFinishSso {
+  string id = 1;
+  string nameOrHomeserverUrl = 2; 
+  string callbackUrl = 3;
+}
+
+// [RUST-SIGNAL]
+message JustSsoTokens {
+  string id = 1;
+  string deviceId = 2;
+  string userId = 3;
+  string accessToken = 4;
+  string refreshToken = 5;
+  string error = 6;
+}

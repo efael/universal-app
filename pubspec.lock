@@ -1877,8 +1877,8 @@ packages:
     description:
       path: "."
       ref: "twake-supported-0.22.6"
-      resolved-ref: dffd31d096174703de7c061fc7ff0ae6250c111a
-      url: "git@github.com:linagora/matrix-dart-sdk.git"
+      resolved-ref: "35bd55569ab290cb2cb4d3cdc0bb00cef954e9b2"
+      url: "git@github.com:efael/matrix-dart-sdk.git"
     source: git
     version: "0.22.6"
   matrix_api_lite:
@@ -1886,8 +1886,8 @@ packages:
     description:
       path: "."
       ref: main
-      resolved-ref: "0546d46d2f0fa9278cab29f5d95c02627374c50b"
-      url: "https://github.com/linagora/dart_matrix_api_lite.git"
+      resolved-ref: "7ecfc6889da0f5eb57b00b1f6f6a65496d06fb78"
+      url: "https://github.com/efael/dart_matrix_api_lite.git"
     source: git
     version: "1.7.4"
   matrix_homeserver_recommendations:

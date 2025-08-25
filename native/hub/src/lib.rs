@@ -1,6 +1,7 @@
 //! This `hub` crate is the
 //! entry point of the Rust logic.
 
+mod matrix;
 mod messages;
 mod sample_functions;
 
@@ -17,6 +18,7 @@ async fn main() {
     // If you must use blocking code, use `tokio::task::spawn_blocking`
     // or the equivalent provided by your async library.
     tokio::spawn(sample_functions::communicate());
+    tokio::spawn(matrix::init());
 
     // Keep the main function running until Dart shutdown.
     rinf::dart_shutdown().await;
